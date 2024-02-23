@@ -1,6 +1,6 @@
-baseURL = "https://example.org/"
+baseURL = "https://cambridgevillagehoa.com"
 languageCode = "en-us"
-title = "Arcana for Hugo"
+title = "Cambridge Village HOA"
 theme = "hugo-arcana"
 copyright = "© Untitled. All rights reserved"
 

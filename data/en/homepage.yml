@@ -9,17 +9,16 @@ items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: This Is Important
-      icon: fa-paper-plane
+    - title: Community Events
+      icon: fa-calendar-alt
+      content: >
+        Potlucks, games, and community building events in our cul-de-sac. We will have quarterly events to help us get to know each other better!
+    - title: HOA Meetings
+      icon: fa-user-friends 
       content: >
         Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
         amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Also Important
-      icon: fa-pencil-alt
-      content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Probably Important
+    - title: Working Together
       icon: fa-wrench
       content: >
         Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl

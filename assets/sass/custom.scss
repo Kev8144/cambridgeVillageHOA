@@ -1,3 +1,34 @@
 /* This file intentionally left blank.
  * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
  */
+
+ // Palette.
+ $palette: (
+    bg: #fff,
+    bg-bold: #f7f7f7,
+    fg: #474747,
+    fg-bold: #4c4c4c,
+    fg-light: #999,
+    border: #e0e0e0,
+
+    accent: (
+        bg: green,
+        fg: #fff
+    ),
+    obscure: (
+        bg: #333,
+        bg-light: #555,
+        bg-bold: #1f1f1f,
+        fg: #c0c0c0
+    )
+);
+
+#banner {
+    background-image: url('/images/hoa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh; /* Adjust this to set the height of the banner */
+    width: 100%;
+  }
+  

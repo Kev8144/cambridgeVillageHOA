@@ -2,6 +2,7 @@
 title: The Fifth Thing
 image: images/pic01.jpg
 date: "2020-01-05T00:00:00"
+draft: "true"
 tags:
   - example
   - lorem ipsum

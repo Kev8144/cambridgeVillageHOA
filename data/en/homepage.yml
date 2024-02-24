@@ -29,7 +29,8 @@ items:
     content_type: posts
     max: 4
   - type: cta
-    contents: Are you ready to continue your quest?
+    contents: Looking to pay your HOA dues?
     button:
-      contents: Insert Coin
+      contents: Coming soon
       url: "#"
+      disabled: "true"

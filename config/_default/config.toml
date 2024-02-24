@@ -18,57 +18,21 @@ defaultContentLanguage = "en"
 
 [params]
     description = "A Home Owner Association web site to facilitate events and communication for the neighborhood"
-    show_post_dates = true
+    show_post_dates = false
 
 
     [params.footer]
 
         [[params.footer.links]]
-            header = "Links to Stuff"
+            header = "Frequently Asked Questions"
         [[params.footer.links.links]]
-            title = "Mattis et quis rutrum"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Suspendisse amet varius"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Sed et dapibus quis"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Rutrum accumsan dolor"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Mattis rutrum accumsan"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Suspendisse varius nibh"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Sed et dapibus mattis"
-            url = "#"
+            title = "How do I..."
+            url = "faq"
 
         [[params.footer.links]]
-            header = "More Links to Stuff"
+            header = "Coming soon..."
         [[params.footer.links.links]]
-            title = "Duis neque nisi dapibus"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Sed et dapibus quis"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Rutrum accumsan sed"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Mattis et sed accumsan"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Duis neque nisi sed"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Sed et dapibus quis"
-            url = "#"
-        [[params.footer.links.links]]
-            title = "Rutrum amet varius"
+            title = "Payments"
             url = "#"
 
         [params.footer.contact_form]

@@ -9,4 +9,4 @@ tags:
   - fun
   - games
 ---
-Enjoy our first ever neighborhood 2023 Block Party!
+This event took place on Saturday May 20, 2023 Come enjoy our first ever neighborhood 2023 Block Party!

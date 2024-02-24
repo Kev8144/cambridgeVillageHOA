@@ -1,7 +1,7 @@
 ---
-title: The Third Thing
+title: Frequently Asked Questions
 image: images/pic03.jpg
-date: "2020-01-03T00:00:00"
+date: "2024-02-24T00:00:00"
 draft: "true"
 tags:
   - example

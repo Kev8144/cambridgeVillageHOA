@@ -1,6 +1,6 @@
 ---
 title: Block Party
-image: images/potluck1.jpeg
+image: images/bbq20231.jpeg
 date: "2023-05-01T00:00:00"
 tags:
   - block

@@ -12,7 +12,7 @@
     border: #e0e0e0,
 
     accent: (
-        bg: green,
+        bg: #043006,
         fg: #fff
     ),
     obscure: (
@@ -24,11 +24,22 @@
 );
 
 #banner {
+    position: relative; /* This is needed to position the pseudo-element absolutely within the banner */
     background-image: url('/images/hoa.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40vh; /* Adjust this to set the height of the banner */
+    height: 45vh; /* Adjust this to set the height of the banner */
     width: 100%;
   }
   
+//   #banner::before {
+//     content: ""; /* This is necessary for the pseudo-element to be generated */
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: rgba(15, 15, 15, 0.5); /* Gray color with 50% opacity */
+//     /* Adjust the alpha value (0.5 in this case) to control the opacity of the overlay */
+//   }

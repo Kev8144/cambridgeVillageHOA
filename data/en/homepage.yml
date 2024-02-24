@@ -20,11 +20,10 @@ items:
     - title: Working Together
       icon: fa-handshake
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+        Many hands make light work. Our goal is to help each other by embracing a spirit of kindness, love, and mutual respect.
   - type: heading
-    heading: A gigantic heading you can use for whatever
-    contents: With a much smaller subtitle hanging out just below it
+    heading: Do you have a community idea?
+    contents: Please join us at an HOA meeting or Community event!
   - type: posts
     #heading: Recent Posts
     content_type: posts

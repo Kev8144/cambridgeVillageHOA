@@ -1,10 +1,12 @@
 ---
-title: Der vierte Post
-image: images/pic04.jpg
-date: "2020-01-04T00:00:00"
+title: Neighborhood Potluck
+image: images/potluck.png
+date: "2020-01-02T00:00:00"
+sidebar_right: sidebar1
+
 tags:
-  - beispiel
-  - lorem ipsum
+  - example
+  - duis neque
 ---
 Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet
 mattis, sed a rutrum accumsan sed. Suspendisse eu.

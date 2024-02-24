@@ -2,44 +2,23 @@ baseURL = "https://cambridgevillagehoa.com"
 languageCode = "en-us"
 title = "Cambridge Village HOA"
 theme = "hugo-arcana"
-copyright = "© Untitled. All rights reserved"
+copyright = "© Cambridge Village HOA Inc"
 
 defaultContentLanguage = "en"
 [languages]
     [languages.en]
         languageName = "English"
         weight = 1
-    [languages.de]
-        languageName = "Deutsch"
+    [languages.es]
+        languageName = "Español"
         weight = 2
 
 [taxonomies]
     tag = "tags"
 
 [params]
-    description = "A business/corporate style responsive site template."
-    show_post_dates = false
-
-    [[params.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        url = "#"
-    [[params.social]]
-        title = "Facebook"
-        icon = "fa-facebook-f"
-        url = "#"
-    [[params.social]]
-        title = "GitHub"
-        icon = "fa-github"
-        url = "#"
-    [[params.social]]
-        title = "LinkedIn"
-        icon = "fa-linkedin-in"
-        url = "#"
-    [[params.social]]
-        title = "Creative Commons"
-        icon = "fa-creative-commons"
-        url = "https://creativecommons.org/"
+    description = "A Home Owner Association web site to facilitate events and communication for the neighborhood"
+    show_post_dates = true
 
 
     [params.footer]

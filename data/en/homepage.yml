@@ -10,16 +10,15 @@ items:
     items_per_row: 3
     items:
     - title: Community Events
-      icon: fa-calendar-alt
+      icon: fa-user-friends
       content: >
         Potlucks, games, and community building events in our cul-de-sac. We will have quarterly events to help us get to know each other better!
     - title: HOA Meetings
-      icon: fa-user-friends 
+      icon: fa-calendar-alt
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+        Periodic messages, voting, and financials are discussed. Please join us in making decisions and improving our neighborhood.
     - title: Working Together
-      icon: fa-wrench
+      icon: fa-handshake
       content: >
         Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
         amet mattis, sed a rutrum accumsan sed. Suspendisse eu.

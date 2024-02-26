@@ -12,7 +12,7 @@ sidebar_heading_3: "hello"
 ---
 ### President
 
-{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="10%" >}}
+{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
 
 Contact Email: <president@cambridgevillagehoa.com>
 
@@ -22,12 +22,12 @@ Contact Email: <president@cambridgevillagehoa.com>
 Contact Email: <vicepresident@cambridgevillagehoa.com> -->
 
 ### Secretary
-{{< image src="/images/ebonyG.jpg" alt="Board Member" width="10%" >}}
+{{< image src="/images/ebonyG.jpg" alt="Board Member" width="20%" >}}
 
 Contact Email: <secretary@cambridgevillagehoa.com>
 
 ### Treasurer
-{{< image src="/images/woseneT.jpg" alt="Board Member" width="10%" >}}
+{{< image src="/images/woseneT.jpg" alt="Board Member" width="20%" >}}
 
 Contact Email: <treasurer@cambridgevillagehoa.com>
 

@@ -1,6 +1,6 @@
 ---
 title: Neighborhood Potluck
-image: images/potluck.png
+image: images/potluck-flyer.jpeg
 date: "2024-02-24T00:00:00"
 sidebar_right: sidebar4
 draft: "false"

@@ -1,24 +1,23 @@
 ---
 title: "Documents"
-description: "Documents"
+description: "Download any documents needed below."
 menu: main
 weight: 70
-tags: ["documents"]
+tags: [""]
 
 
 ---
-### BY-Laws
+### HOA By Laws
 
-{{< image src="/images/placeholder-person.jpg" alt="By laws" >}}
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="2%" >}}HOA By Laws](/images/HOA-By-Laws.pdf)
 
-![By Laws](/images/HOA-By-Laws.pdf)
+### ARC Application
 
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="2%" >}}ARC Application](/images/ARC-Application.pdf)
 
-Contact Email: <president@cambridgevillagehoa.com>
+#### Any questions or concerns? 
 
-### ARC
-{{< image src="/images/ebonyG.jpg" alt="Board Member" width="10%" >}}
+Please contact the board:
+__<board@cambridgevillagehoa.com>__
 
-Any questions or concerns? Please contact the board:
-Board: <board@cambridgevillagehoa.com>
 

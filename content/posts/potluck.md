@@ -10,5 +10,5 @@ tags:
   - example
   - duis neque
 ---
-__Saturday March 30, 2024__ come have a meal with your neighbors!. Bring your favorite international or American dish and enjoy a time of games and conversation as you get to know your neighbors!
+__Saturday March 30, 2024__ come have a meal with your neighbors! Bring your favorite international or American dish and enjoy a time of games and conversation as you get to know your neighbors!
 

@@ -10,10 +10,11 @@ sidebar_heading_3: "hello"
 
 
 ---
-### President
+## President
 
 {{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
 
+#### Dwayne M.
 Contact Email: <president@cambridgevillagehoa.com>
 
 <!-- ### Vice President
@@ -21,13 +22,14 @@ Contact Email: <president@cambridgevillagehoa.com>
 
 Contact Email: <vicepresident@cambridgevillagehoa.com> -->
 
-### Secretary
+## Secretary
 {{< image src="/images/ebonyG.jpg" alt="Board Member" width="20%" >}}
 
+#### Ebony G.
 Contact Email: <secretary@cambridgevillagehoa.com>
 
-### Treasurer
+## Treasurer
 {{< image src="/images/woseneT.jpg" alt="Board Member" width="20%" >}}
-
+#### Wosene S.
 Contact Email: <treasurer@cambridgevillagehoa.com>
 

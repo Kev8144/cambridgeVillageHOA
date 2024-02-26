@@ -7,6 +7,7 @@ image: images/bbq20231.jpeg
 image_alt: "Picture of community barbeque event!"
 tags: ["bbq", "neighborhood", "food"]
 sidebar_left: sidebar2
+draft: "true"
 ---
 
 ### Block Party

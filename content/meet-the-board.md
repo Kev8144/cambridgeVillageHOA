@@ -6,6 +6,7 @@ weight: 70
 tags: ["president", "secretary", "Treasurer"]
 sidebar_left: sidebar1
 sidebar_right: sidebar3
+sidebar_heading_3: "hello"
 
 
 ---

@@ -1,14 +1,14 @@
 [contact_name]
-other = "Name"
+other = "Nombre"
 
 [contact_email]
-other = "Email"
+other = "Correo Electrónico"
 
 [contact_message]
-other = "Nachricht"
+other = "Mensaje"
 
 [contact_submit]
-other = "Nachricht senden"
+other = "Enviar Mensaje"
 
 [language_select]
-other = "Sprache auswählen"
+other = "Seleccionar idioma"

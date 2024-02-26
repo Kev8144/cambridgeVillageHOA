@@ -1,5 +1,5 @@
 ---
-title: Spanish site
-menu: main
+title: Inicio
+menu: principal
 weight: 10
 ---

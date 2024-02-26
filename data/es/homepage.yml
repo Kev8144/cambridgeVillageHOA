@@ -1,38 +1,36 @@
 banner:
   enable: true
-  image: "images/banner.jpg"
-  contents: "**Arcana:** _Ein responsives Webseite-Vorlagen-Freebie von [HTML5 UP](https://html5up.net/)_"
+  image: "images/hoa.jpg"
+  contents: ""
   button:
-    contents: "Erfahre mehr"
+    contents: ""
     url: "#"
 items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: Das ist wichtig
-      icon: fa-paper-plane
+    - title: Eventos Comunitarios
+      icon: fa-user-friends
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Auch wichtig
-      icon: fa-pencil-alt
+        Potlucks, games, and community building events in our cul-de-sac. We will have quarterly events to help us get to know each other better!
+    - title: HOA Meetings
+      icon: fa-calendar-alt
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Wahrscheinlich wichtig
-      icon: fa-wrench
+        Periodic messages, voting, and financials are discussed. Please join us in making decisions and improving our neighborhood.
+    - title: Working Together
+      icon: fa-handshake
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+        Many hands make light work. Our goal is to help each other by embracing a spirit of kindness, love, and mutual respect.
   - type: heading
-    heading: Eine riesen Überschrift für was auch immer du willst
-    contents: Mit einem viel kleineren Untertitel direkt unterhalb
+    heading: Do you have a community idea?
+    contents: Please join us at an HOA meeting or Community event!
   - type: posts
     #heading: Recent Posts
     content_type: posts
     max: 4
   - type: cta
-    contents: Bist du bereit, deine Aufgabe fortzusetzen?
+    contents: Looking to pay your HOA dues?
     button:
-      contents: Münze einwerfen
+      contents: Coming soon
       url: "#"
+      disabled: "true"

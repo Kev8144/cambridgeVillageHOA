@@ -13,7 +13,7 @@ resources/_gen/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
-
+/public
 # Executable may be added to repository
 hugo.exe
 hugo.darwin

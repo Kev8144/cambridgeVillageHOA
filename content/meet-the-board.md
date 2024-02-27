@@ -12,7 +12,7 @@ sidebar_heading_3: "hello"
 ---
 ## President
 
-{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
+{{< image src="/images/president2324.jpeg" alt="Board Member" width="20%" >}}
 
 #### Dwayne M.
 Contact Email: <president@cambridgevillagehoa.com>

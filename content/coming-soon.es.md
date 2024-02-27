@@ -1,7 +1,7 @@
 ---
 title: "Próximamente"
 description: ""
-menu: principal
+menu: main
 weight: 70
 image: images/coming-soon.webp
 image_alt: "¡Próximamente!"

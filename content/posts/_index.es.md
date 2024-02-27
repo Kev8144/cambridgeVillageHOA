@@ -1,5 +1,5 @@
 ---
 title: Eventos Comunitarios
-menu: principal
+menu: main
 weight: 20
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Documentos"
 description: "Descargue cualquier documento necesario a continuación."
-menu: principal
+menu: main
 weight: 70
 tags: [""]
 

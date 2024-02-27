@@ -1,7 +1,7 @@
 ---
 title: "Conozca la Junta"
 description: "Miembros Activos de la Junta 2023-2024"
-menu: principal
+menu: main
 weight: 70
 tags: ["presidente", "secretario", "tesorero"]
 sidebar_left: sidebar1

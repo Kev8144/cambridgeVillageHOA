@@ -1,7 +1,7 @@
 ---
 title: "Eventos Pasados"
 description: "¿Qué hemos hecho hasta ahora?"
-menu: principal
+menu: main
 weight: 50
 image: images/bbq20231.jpeg
 image_alt: "¡Foto del evento de barbacoa comunitaria!"

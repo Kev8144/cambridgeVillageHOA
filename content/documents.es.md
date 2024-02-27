@@ -9,7 +9,12 @@ tags: [""]
 ---
 ### Estatutos de la HOA
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}Estatutos de la HOA](/images/HOA-By-Laws.pdf)
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}ESTATUTOS DE CAMBRIDGE VILLAGE HOA, INC.](/images/DCR.pdf)
+
+
+### Declaración de Convenios, Condiciones y Restricciones
+
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/ByLaws.pdf)
 
 ### Solicitud ARC
 
@@ -17,5 +22,6 @@ tags: [""]
 
 #### ¿Alguna pregunta o preocupación?
 
-Por favor, contacte a la junta:
+Por favor, contacte con la junta:
 __<board@cambridgevillagehoa.com>__
+

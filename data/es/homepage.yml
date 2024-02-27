@@ -12,25 +12,25 @@ items:
     - title: Eventos Comunitarios
       icon: fa-user-friends
       content: >
-        Potlucks, games, and community building events in our cul-de-sac. We will have quarterly events to help us get to know each other better!
-    - title: HOA Meetings
+        Comidas compartidas, juegos y eventos de construcción comunitaria en nuestra calle sin salida. ¡Tendremos eventos trimestrales para ayudarnos a conocernos mejor!
+    - title: Reuniones de la HOA
       icon: fa-calendar-alt
       content: >
-        Periodic messages, voting, and financials are discussed. Please join us in making decisions and improving our neighborhood.
-    - title: Working Together
+        Mensajes periódicos, votaciones y asuntos financieros se discuten. Por favor, únase a nosotros para tomar decisiones y mejorar nuestro vecindario.
+    - title: Trabajando Juntos
       icon: fa-handshake
       content: >
-        Many hands make light work. Our goal is to help each other by embracing a spirit of kindness, love, and mutual respect.
+        Muchas manos hacen el trabajo ligero. Nuestro objetivo es ayudarnos mutuamente adoptando un espíritu de amabilidad, amor y respeto mutuo.
   - type: heading
-    heading: Do you have a community idea?
-    contents: Please join us at an HOA meeting or Community event!
+    heading: ¿Tienes una idea comunitaria?
+    contents: ¡Por favor, únase a nosotros en una reunión de la HOA o evento comunitario!
   - type: posts
-    #heading: Recent Posts
+    #heading: Publicaciones Recientes
     content_type: posts
     max: 4
   - type: cta
-    contents: Looking to pay your HOA dues?
+    contents: ¿Busca pagar sus cuotas de la HOA?
     button:
-      contents: Coming soon
+      contents: Próximamente
       url: "#"
       disabled: "true"

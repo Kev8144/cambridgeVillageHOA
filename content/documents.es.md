@@ -1,7 +1,7 @@
 ---
 title: "Documentos"
-description: "Descargue cualquier documento necesario a continuación."
-menu: main
+description: "Descargue los documentos necesarios a continuación."
+menu: principal
 weight: 70
 tags: [""]
 
@@ -9,19 +9,20 @@ tags: [""]
 ---
 ### Estatutos de la HOA
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}ESTATUTOS DE CAMBRIDGE VILLAGE HOA, INC.](/images/DCR.pdf)
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Estatutos](/images/DCR.pdf)
 
 
 ### Declaración de Convenios, Condiciones y Restricciones
 
 [{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/ByLaws.pdf)
 
-### Solicitud ARC
+### Guía de Arquitectura y Formulario de Solicitud
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}Solicitud ARC](/images/ARC-Application.pdf)
+[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud](/images/ArchitecturalGuidelinesAndForm.pdf)
 
 #### ¿Alguna pregunta o preocupación?
 
 Por favor, contacte con la junta:
 __<board@cambridgevillagehoa.com>__
+
 

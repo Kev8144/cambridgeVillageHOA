@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on Cambridge Village HOA</title>
+    <link>http://localhost:1313/es/</link>
+    <description>Recent content in Inicio on Cambridge Village HOA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© Cambridge Village HOA Inc</copyright>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conozca la Junta</title>
+      <link>http://localhost:1313/es/meet-the-board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/meet-the-board/</guid>
+      <description>Presidente Dwayne M. Correo de contacto: president@cambridgevillagehoa.com&#xA;Secretario Ebony G. Correo de contacto: secretary@cambridgevillagehoa.com&#xA;Tesorero Wosene S. Correo de contacto: treasurer@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>Documentos</title>
+      <link>http://localhost:1313/es/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/documents/</guid>
+      <description>Estatutos de la HOA CAMBRIDGE VILLAGE - Estatutos&#xA;Declaración de Convenios, Condiciones y Restricciones CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones&#xA;Guía de Arquitectura y Formulario de Solicitud CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud&#xA;¿Alguna pregunta o preocupación? Por favor, contacte con la junta: board@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>Preguntas Frecuentes</title>
+      <link>http://localhost:1313/es/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/faq/</guid>
+      <description>¿Cómo puedo pagar mis cuotas de la HOA? &amp;emsp; Enviando su cheque o giro postal a PO Box 577 Ocoee FL, 34761.&#xD;¿Necesito aprobación para pintar mi casa? &amp;emsp; Sí&#xD;¿Necesito aprobación para instalar una cerca? &amp;emsp; Sí&#xD;¿Cuál es el proceso para obtener aprobación para cambios exteriores en mi casa? &amp;emsp; Se requiere la completación y entrega del Manual de Estándares Arquitectónicos y Formulario de Solicitud de CAMBRIDGE VILLAGE.</description>
+    </item>
+    <item>
+      <title>Comida Comunitaria del Vecindario</title>
+      <link>http://localhost:1313/es/posts/potluck/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/potluck/</guid>
+      <description>Sábado 30 de marzo de 2024 ¡ven a comer con tus vecinos! Trae tu plato internacional o americano favorito y disfruta de un tiempo de juegos y conversación mientras conoces a tus vecinos.</description>
+    </item>
+    <item>
+      <title>Fiesta en la Calle</title>
+      <link>http://localhost:1313/es/posts/block-party/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/block-party/</guid>
+      <description>Este evento tuvo lugar el sábado 20 de mayo de 2023. ¡Disfrutamos de nuestra primera Fiesta en la Calle del vecindario en 2023!</description>
+    </item>
+  </channel>
+</rss>

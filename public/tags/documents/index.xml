@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documents on Cambridge Village HOA</title>
+    <link>http://localhost:1313/tags/documents/</link>
+    <description>Recent content in Documents on Cambridge Village HOA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Cambridge Village HOA Inc</copyright>
+    <atom:link href="http://localhost:1313/tags/documents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documents</title>
+      <link>http://localhost:1313/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/documents/</guid>
+      <description>BY-Laws Contact Email: president@cambridgevillagehoa.com&#xA;ARC Any questions or concerns? Please contact the board: Board: board@cambridgevillagehoa.com</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Cambridge Village HOA</title>
+    <link>http://localhost:1313/de/tags/</link>
+    <description>Recent content in Tags on Cambridge Village HOA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>© Untitled. All rights reserved</copyright>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beispiel</title>
+      <link>http://localhost:1313/de/tags/beispiel/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/beispiel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Duis Neque</title>
+      <link>http://localhost:1313/de/tags/duis-neque/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/duis-neque/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>http://localhost:1313/de/tags/lorem-ipsum/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/lorem-ipsum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beispiele</title>
+      <link>http://localhost:1313/de/tags/beispiele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/beispiele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inhalt</title>
+      <link>http://localhost:1313/de/tags/inhalt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/inhalt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seitenleiste</title>
+      <link>http://localhost:1313/de/tags/seitenleiste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/seitenleiste/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -3,7 +3,6 @@
 exampleSite/resources/_gen/
 exampleSite/public/
 resources/_gen/
-public/
 .hugo_build.lock
 
 # Created by https://www.toptal.com/developers/gitignore/api/hugo
@@ -11,7 +10,6 @@ public/
 
 ### Hugo ###
 # Generated files by hugo
-/public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json

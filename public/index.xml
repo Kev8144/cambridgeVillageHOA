@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Cambridge Village HOA</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Cambridge Village HOA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Cambridge Village HOA Inc</copyright>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documents</title>
+      <link>http://localhost:1313/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/documents/</guid>
+      <description>HOA By Laws CAMBRIDGE VILLAGE - By Laws&#xA;Declaration of Covenants, Conditions and Restrictions CAMBRIDGE VILLAGE - Declaration of Covenants, Conditions and Restrictions&#xA;Architectural Guidelines and Request Form CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form&#xA;Any questions or concerns? Please contact the board: board@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>Meet the Board</title>
+      <link>http://localhost:1313/meet-the-board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/meet-the-board/</guid>
+      <description>President Dwayne M. Contact Email: president@cambridgevillagehoa.com&#xA;Secretary Ebony G. Contact Email: secretary@cambridgevillagehoa.com&#xA;Treasurer Wosene S. Contact Email: treasurer@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>How do I pay my HOA dues? &amp;emsp; By mailing your check or money order to PO Box 577 Ocoee FL, 34761.&#xD;Do I need an approval to paint my home? &amp;emsp; Yes&#xD;Do I need an approval to get a fence? &amp;emsp; Yes&#xD;What is the process to get approval for exterior changes for my home? &amp;emsp; A completion and submission of the CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form is required.</description>
+    </item>
+    <item>
+      <title>Neighborhood Potluck</title>
+      <link>http://localhost:1313/posts/potluck/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/potluck/</guid>
+      <description>Saturday March 30, 2024 come have a meal with your neighbors! Bring your favorite international or American dish and enjoy a time of games and conversation as you get to know your neighbors!</description>
+    </item>
+    <item>
+      <title>Block Party</title>
+      <link>http://localhost:1313/posts/block-party/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/block-party/</guid>
+      <description>This event took place on Saturday May 20, 2023. We enjoyed our first ever neighborhood 2023 Block Party!</description>
+    </item>
+  </channel>
+</rss>

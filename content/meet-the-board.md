@@ -30,6 +30,7 @@ Contact Email: <secretary@cambridgevillagehoa.com>
 
 ## Treasurer
 {{< image src="/images/woseneT.jpg" alt="Board Member" width="20%" >}}
+
 #### Wosene S.
 Contact Email: <treasurer@cambridgevillagehoa.com>
 

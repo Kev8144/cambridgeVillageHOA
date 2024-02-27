@@ -12,8 +12,9 @@ sidebar_heading_3: "hola"
 ---
 ### Presidente
 
-{{< image src="/images/placeholder-person.jpg" alt="Miembro de la Junta" width="10%" >}}
+{{< image src="/images/president2324.jpeg" alt="Miembro de la Junta" width="20%" >}}
 
+#### Dwayne M.
 Correo de contacto: <president@cambridgevillagehoa.com>
 
 <!-- ### Vicepresidente
@@ -22,12 +23,14 @@ Correo de contacto: <president@cambridgevillagehoa.com>
 Correo de contacto: <vicepresident@cambridgevillagehoa.com> -->
 
 ### Secretario
-{{< image src="/images/ebonyG.jpg" alt="Miembro de la Junta" width="10%" >}}
+{{< image src="/images/ebonyG.jpg" alt="Miembro de la Junta" width="20%" >}}
 
+#### Ebony G.
 Correo de contacto: <secretary@cambridgevillagehoa.com>
 
 ### Tesorero
-{{< image src="/images/woseneT.jpg" alt="Miembro de la Junta" width="10%" >}}
+{{< image src="/images/woseneT.jpg" alt="Miembro de la Junta" width="20%" >}}
 
+#### Wosene S.
 Correo de contacto: <treasurer@cambridgevillagehoa.com>
 

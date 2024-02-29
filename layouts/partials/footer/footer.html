@@ -1,7 +1,7 @@
 <div id="footer">
     <div class="container">
         <div class="row">
-            {{- if gt (len .Site.Params.footer.links) 0 }}
+            {{- if and .IsHome (gt (len .Site.Params.footer.links) 0) }}
             {{- $link_cols := div (cond .Site.Params.footer.contact_form.enabled 6 12) (len .Site.Params.footer.links)
             }}
             {{- range .Site.Params.footer.links }}
@@ -44,8 +44,8 @@
                 {{- end }}
         </ul>
         <ul>
-            <li>👉Website issues? Contact: <a href="mailto: support@cambridgevillagehoa.com">Support</a>👈
-            </li>
+            👉 Website issues? Contact: <a href="mailto: support@cambridgevillagehoa.com"><strong>Support</strong></a> 👈
+            
         </ul>
     </div>
 </div>

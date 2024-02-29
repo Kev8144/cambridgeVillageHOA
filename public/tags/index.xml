@@ -59,17 +59,24 @@
       <description></description>
     </item>
     <item>
-      <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
+      <title>History</title>
+      <link>http://localhost:1313/tags/history/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/example/</guid>
+      <guid>http://localhost:1313/tags/history/</guid>
       <description></description>
     </item>
     <item>
-      <title>Lorem Ipsum</title>
-      <link>http://localhost:1313/tags/lorem-ipsum/</link>
+      <title>Over the Years</title>
+      <link>http://localhost:1313/tags/over-the-years/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lorem-ipsum/</guid>
+      <guid>http://localhost:1313/tags/over-the-years/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Working Together</title>
+      <link>http://localhost:1313/tags/working-together/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/working-together/</guid>
       <description></description>
     </item>
     <item>

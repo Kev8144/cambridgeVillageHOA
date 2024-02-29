@@ -1,2 +1,12 @@
 <!-- layouts/shortcodes/image.html -->
-<img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" }}" />
+{{ if eq (.Get "type") "thumbnail" }}
+<div class="responsive-thumbnail">
+    <a href="{{ .Get "src" }}" target="_blank">
+        <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+    </a>
+</div>
+{{ else }}
+<a href="{{ .Get "src" }}" target="_blank">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" }}" />
+</a>
+{{ end }}

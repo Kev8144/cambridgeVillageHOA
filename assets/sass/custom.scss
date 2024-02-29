@@ -43,3 +43,19 @@
 //     background: rgba(15, 15, 15, 0.5); /* Gray color with 50% opacity */
 //     /* Adjust the alpha value (0.5 in this case) to control the opacity of the overlay */
 //   }
+
+.responsive-thumbnail {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* Thumbnail size */
+    border: 1px solid #dee2e6; /* Bootstrap-like border color */
+    border-radius: 0.25rem; /* Bootstrap-like border radius */
+    overflow: hidden; /* Ensures the image does not overflow the border */
+}
+
+.responsive-thumbnail img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space under image */
+}
+

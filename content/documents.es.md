@@ -9,12 +9,12 @@ tags: [""]
 ---
 ### Estatutos de la HOA
 
-[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Estatutos](/images/DCR.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Estatutos](/images/ByLaws.pdf)
 
 
 ### Declaración de Convenios, Condiciones y Restricciones
 
-[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/ByLaws.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/DCR.pdf)
 
 ### Guía de Arquitectura y Formulario de Solicitud
 

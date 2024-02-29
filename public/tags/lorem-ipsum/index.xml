@@ -7,27 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/lorem-ipsum/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Der fünfte Post</title>
-      <link>http://localhost:1313/posts/fifth.de/</link>
-      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fifth.de/</guid>
-      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.&#xA;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
-    </item>
-    <item>
-      <title>Der vierte Post</title>
-      <link>http://localhost:1313/posts/fourth.de/</link>
+      <title>The Fourth Thing</title>
+      <link>http://localhost:1313/posts/fourth/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fourth.de/</guid>
-      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.&#xA;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
-    </item>
-    <item>
-      <title>Der erste Post</title>
-      <link>http://localhost:1313/posts/first.de/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first.de/</guid>
+      <guid>http://localhost:1313/posts/fourth/</guid>
       <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.&#xA;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
     </item>
   </channel>

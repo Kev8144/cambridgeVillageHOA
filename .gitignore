@@ -14,6 +14,7 @@ resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 /public
+public
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
@@ -23,3 +24,4 @@ hugo.linux
 /.hugo_build.lock
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo
+/node_modules

@@ -14,15 +14,22 @@
             {{ with index ( index .Site.Data .Site.Language.Lang | default .Site.Data ) (.Param "homepage_data" | default "homepage") }}
                 {{- if .banner.enable }}
                     {{- partial "homepage/banner.html" .banner -}}
+                    
                 {{- end }}
 
                 {{- range .items }}
                     {{- partial (printf "homepage/blocks/%s.html" .type) (dict "ctx" $ "item" .) }}
                 {{- end }}
+                
             {{ end }}
+            {{- partial "email.html" -}}
 
             {{- partial "footer/footer.html" . -}}
+
         </div>
+
+        
+
         {{- partial "scripts.html" . -}}
     </body>
 </html>

@@ -11,10 +11,10 @@
     <atom:link href="http://localhost:1313/tags/working-together/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over the Years</title>
-      <link>http://localhost:1313/posts/fourth/</link>
+      <link>http://localhost:1313/posts/over-the-years/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fourth/</guid>
-      <description>Foundation </description>
+      <guid>http://localhost:1313/posts/over-the-years/</guid>
+      <description>Through many years of planning, volunteering, and working together, we have a community that works and growstogether. Thank you everyone that has worked to build up this community over the years! &amp;hellip;&#xA;Our Sign Over the Years </description>
     </item>
   </channel>
 </rss>

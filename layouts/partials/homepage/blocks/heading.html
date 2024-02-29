@@ -5,8 +5,10 @@
             {{- $html := .item.contents | markdownify }}
             {{- if (findRE "<p(?: [^>]*)?>" $html) }}
                 {{ $html }}
+                
             {{- else -}}
                 <p>{{ $html }}</p>
+                
             {{- end }}
         </header>
     </div>

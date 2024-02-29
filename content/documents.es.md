@@ -9,16 +9,16 @@ tags: [""]
 ---
 ### Estatutos de la HOA
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Estatutos](/images/DCR.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Estatutos](/images/DCR.pdf)
 
 
 ### Declaración de Convenios, Condiciones y Restricciones
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/ByLaws.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones](/images/ByLaws.pdf)
 
 ### Guía de Arquitectura y Formulario de Solicitud
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="2%" >}}CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud](/images/ArchitecturalGuidelinesAndForm.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Miembro de la Junta" width="20px" >}}CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud](/images/ArchitecturalGuidelinesAndForm.pdf)
 
 #### ¿Alguna pregunta o preocupación?
 

@@ -9,16 +9,16 @@ tags: [""]
 ---
 ### HOA By Laws
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="2%" >}}CAMBRIDGE VILLAGE - By Laws](/images/DCR.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Download" width="20px" >}} CAMBRIDGE VILLAGE - By Laws](/images/DCR.pdf)
 
 
 ### Declaration of Covenants, Conditions and Restrictions
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="2%" >}}CAMBRIDGE VILLAGE - Declaration of Covenants, Conditions and Restrictions](/images/ByLaws.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="20px" >}}CAMBRIDGE VILLAGE - Declaration of Covenants, Conditions and Restrictions](/images/ByLaws.pdf)
 
 ### Architectural Guidelines and Request Form
 
-[{{< image src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="2%" >}}CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form](/images/ArchitecturalGuidelinesAndForm.pdf)
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Board Member" width="20px" >}}CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form](/images/ArchitecturalGuidelinesAndForm.pdf)
 
 #### Any questions or concerns? 
 

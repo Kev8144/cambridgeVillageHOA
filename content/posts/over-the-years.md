@@ -10,7 +10,7 @@ tags:
   - sign
 
 ---
-Through many years of planning, volunteering, and working together. We have a community that works together and growing with each other. Thank you everyone that has worked to build up this community over the years!
+Through many years of planning, volunteering, and working together, we have a community that works and growstogether. Thank you everyone that has worked to build up this community over the years!
 ...
 # Our Sign Over the Years
 {{< image type="thumbnail" src="/../../album/1A.jpg" alt="Thumbnail Image" >}}

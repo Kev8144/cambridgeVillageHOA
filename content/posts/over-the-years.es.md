@@ -10,7 +10,7 @@ tags:
   - señal
 
 ---
-A través de muchos años de planificación, voluntariado y trabajo conjunto. Tenemos una comunidad que trabaja unida y crece mutuamente. ¡Gracias a todos los que han trabajado para construir esta comunidad a lo largo de los años!
+A través de muchos años de planificación, voluntariado y trabajo en conjunto, hemos creado una comunidad que trabaja y crece unida. ¡Gracias a todos los que han trabajado para construir esta comunidad a lo largo de los años!
 ...
 # Nuestra Señal A lo largo de los Años
 {{< image type="thumbnail" src="/../../album/1A.jpg" alt="Imagen Miniatura" >}}

@@ -1,6 +1,11 @@
 <div class="collapsible">
-<details>
-  <summary>{{ .Get 0 }}</summary>
-  {{ .Inner }}
-</details>
+
+  <details {{ if eq (.Get 1) "open" }}open{{ end }}>
+    <summary>{{ .Get 0 }}</summary>
+    <div class="collapsible-content">
+      {{ .Inner }}
+    </div>
+
+  </details>
+
 </div>

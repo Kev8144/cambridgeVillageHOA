@@ -59,3 +59,27 @@
     display: block; /* Remove bottom space under image */
 }
 
+.collapsible summary {
+    font-size: 1.5em; /* Adjust the font size to match <h1> */
+    font-weight: bold; /* H1 is usually bold */
+    cursor: pointer; /* To indicate it's clickable */
+    /* Add any other styles to match your site's <h1> tags */
+  }
+  
+  .collapsible details {
+    margin-bottom: 1em; /* Space below the collapsible */
+  }
+  
+  .collapsible-content {
+    padding: 0.5em 0; /* Padding inside the content area */
+    
+  }
+  
+  .collapsible:not(:first-child) {
+    padding-top: 20px; /* Adjust the value as needed */
+  }
+  
+  .collapsible-content {
+    padding-top: 20px; /* Adjust this value to your preference */
+  }
+  

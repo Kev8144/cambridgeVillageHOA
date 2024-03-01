@@ -1,7 +1,7 @@
 ---
 title: "Preguntas Frecuentes"
 description: "Preguntas frecuentes"
-menu: principal
+menu: main
 weight: 80
 image_alt: "Preguntas Frecuentes"
 tags: ["faq"]

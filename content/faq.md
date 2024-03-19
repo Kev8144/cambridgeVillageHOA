@@ -18,8 +18,8 @@ Please contact the active HOA Treasurer - <strong><a href = "mailto: treasurer@c
 A completion and submission of the <strong>CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form</strong> is required. <br>The form is located on the <a href="/documents" style="color: #00008b;">Documents page</a>
 {{< /collapsible >}}
 
-{{< collapsible "Do I need an approval to paint my home?"  open>}}
-Yes
+{{< collapsible "Do I need an approval for the paint color for the exterior of the house?"  open>}}
+Yes. Please, complete and submit the Architectural Standards Manual and Request Form (ARC) along with a sample of the paint color to the HOA board. The ARC Form is located on the <a href="/documents" style="color: #00008b;">Documents page</a>
 {{< /collapsible >}}
 
 {{< collapsible "Do I need an approval to get a fence?" open>}}

@@ -18,9 +18,10 @@ Por favor, contacte al Tesorero activo de la HOA - <strong><a href = "mailto: tr
 Se requiere la completación y envío del <strong>Manual de Normas Arquitectónicas de CAMBRIDGE VILLAGE y Formulario de Solicitud</strong>. <br>El formulario se encuentra en la <a href="/documents" style="color: #00008b;">página de Documentos</a>
 {{< /collapsible >}}
 
-{{< collapsible "¿Necesito una aprobación para pintar mi casa?"  open>}}
-Sí
+{{< collapsible "¿Necesito una aprobación para el color de pintura para el exterior de la casa?" open>}}
+Sí. Por favor, complete y envíe el Manual de Normas Arquitectónicas y Formulario de Solicitud (ARC) junto con una muestra del color de la pintura a la junta de la HOA. El Formulario ARC se encuentra en la <a href="/documents" style="color: #00008b;">página de Documentos</a>
 {{< /collapsible >}}
+
 
 {{< collapsible "¿Necesito una aprobación para instalar una cerca?"  open>}}
 Sí

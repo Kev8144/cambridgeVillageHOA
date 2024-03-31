@@ -15,7 +15,7 @@ __Sábado 30 de marzo de 2024__¡fue un momento genial! ¡Mira nuestros momentos
 {{< image type="thumbnail" src="/../../album/IMG_1338.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1339.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1340.jpeg" alt="Thumbnail Image" >}}
-{{< image type="thumbnail" src="/../../album/IMG_1342.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1877.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1343.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1344.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1350.jpeg" alt="Thumbnail Image" >}}
@@ -28,6 +28,12 @@ __Sábado 30 de marzo de 2024__¡fue un momento genial! ¡Mira nuestros momentos
 {{< image type="thumbnail" src="/../../album/IMG_1367.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1368.jpeg" alt="Thumbnail Image" >}}
 {{< image type="thumbnail" src="/../../album/IMG_1369.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1863.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1871.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1873.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1876.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1342.jpeg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/../../album/IMG_1880.jpeg" alt="Thumbnail Image" >}}
 
 
 <!-- {{< filloutForm >}} -->

@@ -1,6 +1,7 @@
 ---
 title: Neighborhood Potluck
 date: "2024-02-24T00:00:00"
+image: images/IMG_1363.jpeg
 sidebar_right: sidebar4
 draft: "false"
 

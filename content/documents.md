@@ -7,10 +7,14 @@ tags: [""]
 
 
 ---
+
 ### HOA By Laws
 
 [{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Download" width="20px" >}} CAMBRIDGE VILLAGE - By Laws](/images/ByLaws.pdf)
 
+### HOA Board Volunteer Form
+
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Download" width="20px" >}} CAMBRIDGE VILLAGE - By Laws](/images/HOA_Board_Volunteer_Form.docx)
 
 ### Declaration of Covenants, Conditions and Restrictions
 

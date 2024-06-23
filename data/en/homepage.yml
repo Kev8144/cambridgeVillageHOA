@@ -7,7 +7,7 @@ banner:
     url: "#"
 items:
   - type: highlights
-    items_per_row: 3
+    items_per_row: 4
     items:
     - title: Community Events
       icon: fa-user-friends
@@ -21,6 +21,10 @@ items:
       icon: fa-handshake
       content: >
         Many hands make light work. Our goal is to help each other by embracing a spirit of kindness, love, and mutual respect.
+    - title: Newsletters
+      icon: fa-newspaper
+      content: >
+        Get information about the neighborhood, events, and socials. Stay informed and feel free to present your ideas.
   - type: heading
     heading: Do you have a community idea?
     contents: Please join us at an HOA meeting or Community event!

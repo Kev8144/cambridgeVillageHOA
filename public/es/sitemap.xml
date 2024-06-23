@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,6 +64,45 @@
                 href="http://localhost:1313/es/faq/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/posts/hoa-meeting/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/hoa-meeting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/hoa-meeting/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/hoa-meeting/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/hoa-meeting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/hoa-meeting/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/posts/potluck/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -91,19 +130,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/potluck/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/bloque/</loc>

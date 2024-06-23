@@ -1,9 +1,9 @@
 ---
 title: "Meet the Board"
-description: "2023-2024 Active Board Members"
+description: "2024-2025 Active Board Members"
 menu: main
 weight: 70
-tags: ["president", "secretary", "Treasurer"]
+tags: ["president","vice president", "secretary", "treasurer", "director"]
 sidebar_left: sidebar1
 sidebar_right: sidebar3
 sidebar_heading_3: "hello"
@@ -17,20 +17,27 @@ sidebar_heading_3: "hello"
 #### Dwayne M.
 Contact Email: <president@cambridgevillagehoa.com>
 
-<!-- ### Vice President
-{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="10%" >}}
-
-Contact Email: <vicepresident@cambridgevillagehoa.com> -->
-
-## Secretary
+## Vice President
 {{< image src="/images/ebonyG.jpg" alt="Board Member" width="20%" >}}
 
 #### Ebony G.
+Contact Email: <vicepresident@cambridgevillagehoa.com>
+
+## Secretary
+{{< image src="/images/anapic.jpg" alt="Board Member" width="20%" >}}
+
+#### Ana A.
 Contact Email: <secretary@cambridgevillagehoa.com>
 
 ## Treasurer
-{{< image src="/images/woseneT.jpg" alt="Board Member" width="20%" >}}
+{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
 
-#### Wosene S.
+#### Fetcha D.
 Contact Email: <treasurer@cambridgevillagehoa.com>
+
+## Director
+{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
+
+#### Vacant
+Contact Email: <director@cambridgevillagehoa.com>
 

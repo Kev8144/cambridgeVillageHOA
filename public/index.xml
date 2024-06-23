@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documents</title>
@@ -21,7 +21,14 @@
       <link>http://localhost:1313/meet-the-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/meet-the-board/</guid>
-      <description>President Dwayne M. Contact Email: president@cambridgevillagehoa.com&#xA;Secretary Ebony G. Contact Email: secretary@cambridgevillagehoa.com&#xA;Treasurer Wosene S. Contact Email: treasurer@cambridgevillagehoa.com</description>
+      <description>President Dwayne M. Contact Email: president@cambridgevillagehoa.com&#xA;Vice President Ebony G. Contact Email: vicepresident@cambridgevillagehoa.com&#xA;Secretary Ana A. Contact Email: secretary@cambridgevillagehoa.com&#xA;Treasurer Fetcha D. Contact Email: treasurer@cambridgevillagehoa.com&#xA;Director Vacant Contact Email: director@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>Newsletters</title>
+      <link>http://localhost:1313/newsletters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/newsletters/</guid>
+      <description>Neighborhood News and Finances Issue 3&#xA;Issue 2</description>
     </item>
     <item>
       <title>FAQ</title>
@@ -29,6 +36,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/faq/</guid>
       <description>How do I pay my HOA dues? Cambridge Village HOA dues are paid biannually ($230) for a total of $460 dollars per year. The fee is due by the end of January and by the end of July each year. An invoice for payment will be sent by mail to the home of each resident a month before the due date. Each invoice must be paid in full to not incur any penalties.</description>
+    </item>
+    <item>
+      <title>HOA Meeting on June 22, 2024</title>
+      <link>http://localhost:1313/posts/hoa-meeting/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hoa-meeting/</guid>
+      <description>It was a great turn out! Thank you everyone for coming.&#xA;Neighborhood News, Finances, and Rewards!! </description>
     </item>
     <item>
       <title>Neighborhood Potluck</title>

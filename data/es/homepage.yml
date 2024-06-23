@@ -7,7 +7,7 @@ banner:
     url: "#"
 items:
   - type: highlights
-    items_per_row: 3
+    items_per_row: 4
     items:
     - title: Eventos Comunitarios
       icon: fa-user-friends
@@ -21,6 +21,10 @@ items:
       icon: fa-handshake
       content: >
         Muchas manos hacen el trabajo ligero. Nuestro objetivo es ayudarnos mutuamente adoptando un espíritu de amabilidad, amor y respeto mutuo.
+    - title: Boletines
+      icon: fa-newspaper
+      content: >
+        Obtenga información sobre el vecindario, eventos y reuniones sociales. Manténgase informado y siéntase libre de presentar sus ideas.
   - type: heading
     heading: ¿Tienes una idea comunitaria?
     contents: ¡Por favor, únase a nosotros en una reunión de la HOA o evento comunitario!

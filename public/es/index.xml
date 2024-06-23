@@ -7,21 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conozca la Junta</title>
       <link>http://localhost:1313/es/meet-the-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/meet-the-board/</guid>
-      <description>Presidente Dwayne M. Correo de contacto: president@cambridgevillagehoa.com&#xA;Secretario Ebony G. Correo de contacto: secretary@cambridgevillagehoa.com&#xA;Tesorero Wosene S. Correo de contacto: treasurer@cambridgevillagehoa.com</description>
+      <description>Presidente Dwayne M. Correo de contacto: president@cambridgevillagehoa.com&#xA;Vice Presidente Contact Email: vicepresident@cambridgevillagehoa.com&#xA;Secretario Ebony G. Correo de contacto: secretary@cambridgevillagehoa.com&#xA;Tesorero Fetcha D. Correo de contacto: treasurer@cambridgevillagehoa.com&#xA;Director Vacante Correo de contacto: director@cambridgevillagehoa.com</description>
     </item>
     <item>
       <title>Documentos</title>
       <link>http://localhost:1313/es/documents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/documents/</guid>
-      <description>Estatutos de la HOA CAMBRIDGE VILLAGE - Estatutos&#xA;Declaración de Convenios, Condiciones y Restricciones CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones&#xA;Guía de Arquitectura y Formulario de Solicitud CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud&#xA;¿Alguna pregunta o preocupación? Por favor, contacte con la junta: board@cambridgevillagehoa.com</description>
+      <description>Estatutos de la HOA CAMBRIDGE VILLAGE - Estatutos&#xA;Formulario de Voluntariado para la Junta de la HOA CAMBRIDGE VILLAGE - Formulario de Voluntariado&#xA;Declaración de Convenios, Condiciones y Restricciones CAMBRIDGE VILLAGE - Declaración de Convenios, Condiciones y Restricciones&#xA;Guía de Arquitectura y Formulario de Solicitud CAMBRIDGE VILLAGE - Manual de Normas Arquitectónicas y Formulario de Solicitud&#xA;¿Alguna pregunta o preocupación? Por favor, contacte con la junta: board@cambridgevillagehoa.com</description>
+    </item>
+    <item>
+      <title>Newsletters</title>
+      <link>http://localhost:1313/es/newsletters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/newsletters/</guid>
+      <description>Noticias y Finanzas del Vecindario Edición 3&#xA;Edición 2</description>
     </item>
     <item>
       <title>Preguntas Frecuentes</title>
@@ -31,11 +38,18 @@
       <description>¿Cómo pago mis cuotas de la HOA? Las cuotas de la HOA de Cambridge Village se pagan semestralmente ($230) para un total de $460 dólares por año. La cuota se debe pagar a finales de enero y a finales de julio de cada año. Se enviará una factura para el pago por correo a la casa de cada residente un mes antes de la fecha de vencimiento. Cada factura debe ser pagada en su totalidad para no incurrir en penalizaciones.</description>
     </item>
     <item>
+      <title>Reunión de HOA el 22 de junio de 2024</title>
+      <link>http://localhost:1313/es/posts/hoa-meeting/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/hoa-meeting/</guid>
+      <description>¡Fue una gran asistencia! Gracias a todos por venir.&#xA;Noticias del Vecindario, Finanzas y Recompensas!! </description>
+    </item>
+    <item>
       <title>Comida Comunitaria del Vecindario</title>
       <link>http://localhost:1313/es/posts/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/posts/potluck/</guid>
-      <description>Sábado 30 de marzo de 2024 ¡ven a comer con tus vecinos! Trae tu plato internacional o americano favorito y disfruta de un tiempo de juegos y conversación mientras conoces a tus vecinos.</description>
+      <description>Sábado 30 de marzo de 2024¡fue un momento genial! ¡Mira nuestros momentos! :-)&amp;quot;&#xA;Fiesta de Barrio 2024 </description>
     </item>
     <item>
       <title>Fiesta en la Calle</title>

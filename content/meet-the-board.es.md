@@ -1,6 +1,6 @@
 ---
 title: "Conozca la Junta"
-description: "Miembros Activos de la Junta 2023-2024"
+description: "Miembros Activos de la Junta 2024-2025"
 menu: main
 weight: 70
 tags: ["presidente", "secretario", "tesorero"]
@@ -10,27 +10,32 @@ sidebar_heading_3: "hola"
 
 
 ---
-### Presidente
+## Presidente
 
 {{< image src="/images/president2324.jpeg" alt="Miembro de la Junta" width="20%" >}}
 
 #### Dwayne M.
 Correo de contacto: <president@cambridgevillagehoa.com>
 
-<!-- ### Vicepresidente
-{{< image src="/images/placeholder-person.jpg" alt="Miembro de la Junta" width="10%" >}}
+## Vice Presidente
+{{< image src="/images/ebonyG.jpg" alt="Board Member" width="20%" >}}
 
-Correo de contacto: <vicepresident@cambridgevillagehoa.com> -->
+Contact Email: <vicepresident@cambridgevillagehoa.com>
 
-### Secretario
-{{< image src="/images/ebonyG.jpg" alt="Miembro de la Junta" width="20%" >}}
+## Secretario
+{{< image src="/images/anapic.jpg" alt="Miembro de la Junta" width="20%" >}}
 
 #### Ebony G.
 Correo de contacto: <secretary@cambridgevillagehoa.com>
 
-### Tesorero
-{{< image src="/images/woseneT.jpg" alt="Miembro de la Junta" width="20%" >}}
+## Tesorero
+{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
 
-#### Wosene S.
+#### Fetcha D.
 Correo de contacto: <treasurer@cambridgevillagehoa.com>
 
+## Director
+{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
+
+## Vacante
+Correo de contacto: <director@cambridgevillagehoa.com>

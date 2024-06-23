@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -52,6 +52,8 @@
                 href="http://localhost:1313/meet-the-board/"
                 />
   </url><url>
+    <loc>http://localhost:1313/newsletters/</loc>
+  </url><url>
     <loc>http://localhost:1313/faq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -62,6 +64,45 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/faq/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/hoa-meeting/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/hoa-meeting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/hoa-meeting/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/hoa-meeting/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/hoa-meeting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/hoa-meeting/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/international-food/</loc>
@@ -91,19 +132,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tags/potluck/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/block/</loc>
@@ -159,6 +187,10 @@
     <loc>http://localhost:1313/tags/working-together/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/community/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/director/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/faq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -171,10 +203,16 @@
                 href="http://localhost:1313/tags/faq/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/information/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/news/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/president/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/secretary/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/treasurer/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/vice-president/</loc>
   </url>
 </urlset>

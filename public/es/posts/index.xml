@@ -7,14 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Únase a nosotros para nuestra reunión de HOA el 22 de junio de 2024 a las 4pm!</title>
+      <link>http://localhost:1313/es/posts/hoa-meeting/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/hoa-meeting/</guid>
+      <description>¡Únase a nosotros para nuestra reunión de HOA!&#xA;Noticias del vecindario y finanzas </description>
+    </item>
     <item>
       <title>Comida Comunitaria del Vecindario</title>
       <link>http://localhost:1313/es/posts/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/posts/potluck/</guid>
-      <description>Sábado 30 de marzo de 2024 ¡ven a comer con tus vecinos! Trae tu plato internacional o americano favorito y disfruta de un tiempo de juegos y conversación mientras conoces a tus vecinos.</description>
+      <description>Sábado 30 de marzo de 2024¡fue un momento genial! ¡Mira nuestros momentos! :-)&amp;quot;&#xA;Fiesta de Barrio 2024 </description>
     </item>
     <item>
       <title>Fiesta en la Calle</title>

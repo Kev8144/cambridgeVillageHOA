@@ -1,7 +1,7 @@
 ---
-title: Join us for our HOA Meeting on June 22, 2024 at 4pm
+title: HOA Meeting on June 22, 2024
 date: "2024-06-10T00:00:00"
-image: /../../album/3z.png
+image: /images/3-meet622.jpg
 sidebar_right:
 draft: "false"
 
@@ -9,10 +9,11 @@ draft: "false"
 tags:
   - hoa meeting
 ---
-Join us for our HOA Meeting!
+It was a great turn out! Thank you everyone for coming.
 
-# Neighborhood News and Finances
+# Neighborhood News, Finances, and Rewards!!
 
 
-{{< image type="thumbnail" src="/../../album/1z.png" alt="Thumbnail Image" >}}
-{{< image type="thumbnail" src="/../../album/1.png" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/images/1-meet622.jpg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/images/2-meet622.jpg" alt="Thumbnail Image" >}}
+{{< image type="thumbnail" src="/images/4-meet622.jpg" alt="Thumbnail Image" >}}

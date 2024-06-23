@@ -9,11 +9,11 @@
     <copyright>© Cambridge Village HOA Inc</copyright>
     <atom:link href="http://localhost:1313/tags/neighborhood/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Past Events</title>
-      <link>http://localhost:1313/past-events/</link>
+      <title>Newsletters</title>
+      <link>http://localhost:1313/newsletters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/past-events/</guid>
-      <description>Block Party Our first ever neighborhood block party!! Music, food, fun, and games. Rekindled our neighborhood involvement.</description>
+      <guid>http://localhost:1313/newsletters/</guid>
+      <description>Neighborhood News and Finances </description>
     </item>
   </channel>
 </rss>

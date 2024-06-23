@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Cambridge Village HOA</title>
-    <link>http://localhost:1313/</link>
+    <link>https://cambridgevillagehoa.com/</link>
     <description>Recent content in Home on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cambridgevillagehoa.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documents</title>
-      <link>http://localhost:1313/documents/</link>
+      <link>https://cambridgevillagehoa.com/documents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/documents/</guid>
+      <guid>https://cambridgevillagehoa.com/documents/</guid>
       <description>HOA By Laws CAMBRIDGE VILLAGE - By Laws&#xA;HOA Board Volunteer Form CAMBRIDGE VILLAGE - Board Volunteer Form&#xA;Declaration of Covenants, Conditions and Restrictions CAMBRIDGE VILLAGE - Declaration of Covenants, Conditions and Restrictions&#xA;Architectural Guidelines and Request Form CAMBRIDGE VILLAGE - Architectural Standards Manual and Request Form&#xA;Any questions or concerns? Please contact the board: board@cambridgevillagehoa.com</description>
     </item>
     <item>
       <title>Meet the Board</title>
-      <link>http://localhost:1313/meet-the-board/</link>
+      <link>https://cambridgevillagehoa.com/meet-the-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/meet-the-board/</guid>
+      <guid>https://cambridgevillagehoa.com/meet-the-board/</guid>
       <description>President Dwayne M. Contact Email: president@cambridgevillagehoa.com&#xA;Vice President Ebony G. Contact Email: vicepresident@cambridgevillagehoa.com&#xA;Secretary Ana A. Contact Email: secretary@cambridgevillagehoa.com&#xA;Treasurer Fetcha D. Contact Email: treasurer@cambridgevillagehoa.com&#xA;Director Vacant Contact Email: director@cambridgevillagehoa.com</description>
     </item>
     <item>
       <title>Newsletters</title>
-      <link>http://localhost:1313/newsletters/</link>
+      <link>https://cambridgevillagehoa.com/newsletters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/newsletters/</guid>
+      <guid>https://cambridgevillagehoa.com/newsletters/</guid>
       <description>Neighborhood News and Finances Issue 3&#xA;Issue 2</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/faq/</link>
+      <link>https://cambridgevillagehoa.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/faq/</guid>
+      <guid>https://cambridgevillagehoa.com/faq/</guid>
       <description>How do I pay my HOA dues? Cambridge Village HOA dues are paid biannually ($230) for a total of $460 dollars per year. The fee is due by the end of January and by the end of July each year. An invoice for payment will be sent by mail to the home of each resident a month before the due date. Each invoice must be paid in full to not incur any penalties.</description>
     </item>
     <item>
       <title>HOA Meeting on June 22, 2024</title>
-      <link>http://localhost:1313/posts/hoa-meeting/</link>
+      <link>https://cambridgevillagehoa.com/posts/hoa-meeting/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hoa-meeting/</guid>
+      <guid>https://cambridgevillagehoa.com/posts/hoa-meeting/</guid>
       <description>It was a great turn out! Thank you everyone for coming.&#xA;Neighborhood News, Finances, and Rewards!! </description>
     </item>
     <item>
       <title>Neighborhood Potluck</title>
-      <link>http://localhost:1313/posts/potluck/</link>
+      <link>https://cambridgevillagehoa.com/posts/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/potluck/</guid>
+      <guid>https://cambridgevillagehoa.com/posts/potluck/</guid>
       <description>Saturday March 30, 2024 was a great time! Look at our moments! :-)&#xA;Neighborhood Block Party 2024 </description>
     </item>
     <item>
       <title>Block Party</title>
-      <link>http://localhost:1313/posts/block-party/</link>
+      <link>https://cambridgevillagehoa.com/posts/block-party/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/block-party/</guid>
+      <guid>https://cambridgevillagehoa.com/posts/block-party/</guid>
       <description>This event took place on Saturday May 20, 2023. We enjoyed our first ever neighborhood 2023 Block Party!</description>
     </item>
     <item>
       <title>Over the Years</title>
-      <link>http://localhost:1313/posts/over-the-years/</link>
+      <link>https://cambridgevillagehoa.com/posts/over-the-years/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/over-the-years/</guid>
+      <guid>https://cambridgevillagehoa.com/posts/over-the-years/</guid>
       <description>Through many years of planning, volunteering, and working together, we have a community that works and growstogether. Thank you everyone that has worked to build up this community over the years! &amp;hellip;&#xA;Our Sign Over the Years </description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Working Together on Cambridge Village HOA</title>
-    <link>http://localhost:1313/tags/working-together/</link>
+    <link>https://cambridgevillagehoa.com/tags/working-together/</link>
     <description>Recent content in Working Together on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/working-together/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cambridgevillagehoa.com/tags/working-together/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over the Years</title>
-      <link>http://localhost:1313/posts/over-the-years/</link>
+      <link>https://cambridgevillagehoa.com/posts/over-the-years/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/over-the-years/</guid>
+      <guid>https://cambridgevillagehoa.com/posts/over-the-years/</guid>
       <description>Through many years of planning, volunteering, and working together, we have a community that works and growstogether. Thank you everyone that has worked to build up this community over the years! &amp;hellip;&#xA;Our Sign Over the Years </description>
     </item>
   </channel>

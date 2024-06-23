@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Potluck on Cambridge Village HOA</title>
-    <link>http://localhost:1313/es/tags/potluck/</link>
+    <link>https://cambridgevillagehoa.com/es/tags/potluck/</link>
     <description>Recent content in Potluck on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/tags/potluck/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cambridgevillagehoa.com/es/tags/potluck/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comida Comunitaria del Vecindario</title>
-      <link>http://localhost:1313/es/posts/potluck/</link>
+      <link>https://cambridgevillagehoa.com/es/posts/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/posts/potluck/</guid>
+      <guid>https://cambridgevillagehoa.com/es/posts/potluck/</guid>
       <description>Sábado 30 de marzo de 2024¡fue un momento genial! ¡Mira nuestros momentos! :-)&amp;quot;&#xA;Fiesta de Barrio 2024 </description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Faq on Cambridge Village HOA</title>
-    <link>http://localhost:1313/es/tags/faq/</link>
+    <link>https://cambridgevillagehoa.com/es/tags/faq/</link>
     <description>Recent content in Faq on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <atom:link href="http://localhost:1313/es/tags/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cambridgevillagehoa.com/es/tags/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preguntas Frecuentes</title>
-      <link>http://localhost:1313/es/faq/</link>
+      <link>https://cambridgevillagehoa.com/es/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/faq/</guid>
+      <guid>https://cambridgevillagehoa.com/es/faq/</guid>
       <description>¿Cómo pago mis cuotas de la HOA? Las cuotas de la HOA de Cambridge Village se pagan semestralmente ($230) para un total de $460 dólares por año. La cuota se debe pagar a finales de enero y a finales de julio de cada año. Se enviará una factura para el pago por correo a la casa de cada residente un mes antes de la fecha de vencimiento. Cada factura debe ser pagada en su totalidad para no incurrir en penalizaciones.</description>
     </item>
   </channel>

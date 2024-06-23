@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Faq on Cambridge Village HOA</title>
-    <link>http://localhost:1313/tags/faq/</link>
+    <link>https://cambridgevillagehoa.com/tags/faq/</link>
     <description>Recent content in Faq on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
-    <atom:link href="http://localhost:1313/tags/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cambridgevillagehoa.com/tags/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/faq/</link>
+      <link>https://cambridgevillagehoa.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/faq/</guid>
+      <guid>https://cambridgevillagehoa.com/faq/</guid>
       <description>How do I pay my HOA dues? Cambridge Village HOA dues are paid biannually ($230) for a total of $460 dollars per year. The fee is due by the end of January and by the end of July each year. An invoice for payment will be sent by mail to the home of each resident a month before the due date. Each invoice must be paid in full to not incur any penalties.</description>
     </item>
   </channel>

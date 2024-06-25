@@ -2,144 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cambridge Village HOA</title>
-    <link>https://cambridgevillagehoa.com/es/tags/</link>
+    <link>http://localhost:1313/es/tags/</link>
     <description>Recent content in Tags on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cambridgevillagehoa.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reunión De HOA</title>
-      <link>https://cambridgevillagehoa.com/es/tags/reuni%C3%B3n-de-hoa/</link>
+      <link>http://localhost:1313/es/tags/reuni%C3%B3n-de-hoa/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/reuni%C3%B3n-de-hoa/</guid>
+      <guid>http://localhost:1313/es/tags/reuni%C3%B3n-de-hoa/</guid>
       <description></description>
     </item>
     <item>
       <title>Comida Internacional</title>
-      <link>https://cambridgevillagehoa.com/es/tags/comida-internacional/</link>
+      <link>http://localhost:1313/es/tags/comida-internacional/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/comida-internacional/</guid>
+      <guid>http://localhost:1313/es/tags/comida-internacional/</guid>
       <description></description>
     </item>
     <item>
       <title>Potluck</title>
-      <link>https://cambridgevillagehoa.com/es/tags/potluck/</link>
+      <link>http://localhost:1313/es/tags/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/potluck/</guid>
+      <guid>http://localhost:1313/es/tags/potluck/</guid>
       <description></description>
     </item>
     <item>
       <title>Bloque</title>
-      <link>https://cambridgevillagehoa.com/es/tags/bloque/</link>
+      <link>http://localhost:1313/es/tags/bloque/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/bloque/</guid>
+      <guid>http://localhost:1313/es/tags/bloque/</guid>
       <description></description>
     </item>
     <item>
       <title>Comida</title>
-      <link>https://cambridgevillagehoa.com/es/tags/comida/</link>
+      <link>http://localhost:1313/es/tags/comida/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/comida/</guid>
+      <guid>http://localhost:1313/es/tags/comida/</guid>
       <description></description>
     </item>
     <item>
       <title>Diversión</title>
-      <link>https://cambridgevillagehoa.com/es/tags/diversi%C3%B3n/</link>
+      <link>http://localhost:1313/es/tags/diversi%C3%B3n/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/diversi%C3%B3n/</guid>
+      <guid>http://localhost:1313/es/tags/diversi%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiesta</title>
-      <link>https://cambridgevillagehoa.com/es/tags/fiesta/</link>
+      <link>http://localhost:1313/es/tags/fiesta/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/fiesta/</guid>
+      <guid>http://localhost:1313/es/tags/fiesta/</guid>
       <description></description>
     </item>
     <item>
       <title>Juegos</title>
-      <link>https://cambridgevillagehoa.com/es/tags/juegos/</link>
+      <link>http://localhost:1313/es/tags/juegos/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/juegos/</guid>
+      <guid>http://localhost:1313/es/tags/juegos/</guid>
       <description></description>
     </item>
     <item>
       <title>A Lo Largo De Los Años</title>
-      <link>https://cambridgevillagehoa.com/es/tags/a-lo-largo-de-los-a%C3%B1os/</link>
+      <link>http://localhost:1313/es/tags/a-lo-largo-de-los-a%C3%B1os/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/a-lo-largo-de-los-a%C3%B1os/</guid>
+      <guid>http://localhost:1313/es/tags/a-lo-largo-de-los-a%C3%B1os/</guid>
       <description></description>
     </item>
     <item>
       <title>Historia</title>
-      <link>https://cambridgevillagehoa.com/es/tags/historia/</link>
+      <link>http://localhost:1313/es/tags/historia/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/historia/</guid>
+      <guid>http://localhost:1313/es/tags/historia/</guid>
       <description></description>
     </item>
     <item>
       <title>Señal</title>
-      <link>https://cambridgevillagehoa.com/es/tags/se%C3%B1al/</link>
+      <link>http://localhost:1313/es/tags/se%C3%B1al/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/se%C3%B1al/</guid>
+      <guid>http://localhost:1313/es/tags/se%C3%B1al/</guid>
       <description></description>
     </item>
     <item>
       <title>Trabajando Juntos</title>
-      <link>https://cambridgevillagehoa.com/es/tags/trabajando-juntos/</link>
+      <link>http://localhost:1313/es/tags/trabajando-juntos/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/trabajando-juntos/</guid>
+      <guid>http://localhost:1313/es/tags/trabajando-juntos/</guid>
       <description></description>
     </item>
     <item>
       <title>Comunidad</title>
-      <link>https://cambridgevillagehoa.com/es/tags/comunidad/</link>
+      <link>http://localhost:1313/es/tags/comunidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/comunidad/</guid>
+      <guid>http://localhost:1313/es/tags/comunidad/</guid>
       <description></description>
     </item>
     <item>
       <title>Faq</title>
-      <link>https://cambridgevillagehoa.com/es/tags/faq/</link>
+      <link>http://localhost:1313/es/tags/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/faq/</guid>
+      <guid>http://localhost:1313/es/tags/faq/</guid>
       <description></description>
     </item>
     <item>
       <title>Información</title>
-      <link>https://cambridgevillagehoa.com/es/tags/informaci%C3%B3n/</link>
+      <link>http://localhost:1313/es/tags/informaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/informaci%C3%B3n/</guid>
+      <guid>http://localhost:1313/es/tags/informaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Noticias</title>
-      <link>https://cambridgevillagehoa.com/es/tags/noticias/</link>
+      <link>http://localhost:1313/es/tags/noticias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/noticias/</guid>
+      <guid>http://localhost:1313/es/tags/noticias/</guid>
       <description></description>
     </item>
     <item>
       <title>Presidente</title>
-      <link>https://cambridgevillagehoa.com/es/tags/presidente/</link>
+      <link>http://localhost:1313/es/tags/presidente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/presidente/</guid>
+      <guid>http://localhost:1313/es/tags/presidente/</guid>
       <description></description>
     </item>
     <item>
       <title>Secretario</title>
-      <link>https://cambridgevillagehoa.com/es/tags/secretario/</link>
+      <link>http://localhost:1313/es/tags/secretario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/secretario/</guid>
+      <guid>http://localhost:1313/es/tags/secretario/</guid>
       <description></description>
     </item>
     <item>
       <title>Tesorero</title>
-      <link>https://cambridgevillagehoa.com/es/tags/tesorero/</link>
+      <link>http://localhost:1313/es/tags/tesorero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/tags/tesorero/</guid>
+      <guid>http://localhost:1313/es/tags/tesorero/</guid>
       <description></description>
     </item>
   </channel>

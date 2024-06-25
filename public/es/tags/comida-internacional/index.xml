@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Comida Internacional on Cambridge Village HOA</title>
-    <link>https://cambridgevillagehoa.com/es/tags/comida-internacional/</link>
+    <link>http://localhost:1313/es/tags/comida-internacional/</link>
     <description>Recent content in Comida Internacional on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cambridgevillagehoa.com/es/tags/comida-internacional/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/comida-internacional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comida Comunitaria del Vecindario</title>
-      <link>https://cambridgevillagehoa.com/es/posts/potluck/</link>
+      <link>http://localhost:1313/es/posts/potluck/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/posts/potluck/</guid>
+      <guid>http://localhost:1313/es/posts/potluck/</guid>
       <description>Sábado 30 de marzo de 2024¡fue un momento genial! ¡Mira nuestros momentos! :-)&amp;quot;&#xA;Fiesta de Barrio 2024 </description>
     </item>
   </channel>

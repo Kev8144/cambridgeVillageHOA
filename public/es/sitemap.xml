@@ -2,213 +2,213 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cambridgevillagehoa.com/es/</loc>
+    <loc>http://localhost:1313/es/</loc>
     <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/"
+                href="http://localhost:1313/es/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/posts/</loc>
+    <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/posts/"
+                href="http://localhost:1313/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/posts/"
+                href="http://localhost:1313/es/posts/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/meet-the-board/</loc>
+    <loc>http://localhost:1313/es/meet-the-board/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/meet-the-board/"
+                href="http://localhost:1313/meet-the-board/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/meet-the-board/"
+                href="http://localhost:1313/es/meet-the-board/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/documents/</loc>
+    <loc>http://localhost:1313/es/documents/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/documents/"
+                href="http://localhost:1313/documents/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/documents/"
+                href="http://localhost:1313/es/documents/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/newsletters/</loc>
+    <loc>http://localhost:1313/es/newsletters/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/newsletters/"
+                href="http://localhost:1313/newsletters/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/newsletters/"
+                href="http://localhost:1313/es/newsletters/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/faq/</loc>
+    <loc>http://localhost:1313/es/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/faq/"
+                href="http://localhost:1313/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/faq/"
+                href="http://localhost:1313/es/faq/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/reuni%C3%B3n-de-hoa/</loc>
+    <loc>http://localhost:1313/es/tags/reuni%C3%B3n-de-hoa/</loc>
     <lastmod>2024-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/posts/hoa-meeting/</loc>
-    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cambridgevillagehoa.com/posts/hoa-meeting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cambridgevillagehoa.com/es/posts/hoa-meeting/"
-                />
-  </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/</loc>
+    <loc>http://localhost:1313/es/posts/hoa-meeting/</loc>
     <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/tags/"
+                href="http://localhost:1313/posts/hoa-meeting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/tags/"
+                href="http://localhost:1313/es/posts/hoa-meeting/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/posts/potluck/</loc>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/posts/potluck/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/posts/potluck/"
+                href="http://localhost:1313/posts/potluck/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/posts/potluck/"
+                href="http://localhost:1313/es/posts/potluck/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/comida-internacional/</loc>
+    <loc>http://localhost:1313/es/tags/comida-internacional/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/potluck/</loc>
+    <loc>http://localhost:1313/es/tags/potluck/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/tags/potluck/"
+                href="http://localhost:1313/tags/potluck/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/tags/potluck/"
+                href="http://localhost:1313/es/tags/potluck/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/bloque/</loc>
+    <loc>http://localhost:1313/es/tags/bloque/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/comida/</loc>
+    <loc>http://localhost:1313/es/tags/comida/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/diversi%C3%B3n/</loc>
+    <loc>http://localhost:1313/es/tags/diversi%C3%B3n/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/fiesta/</loc>
+    <loc>http://localhost:1313/es/tags/fiesta/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/posts/block-party/</loc>
+    <loc>http://localhost:1313/es/posts/block-party/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/posts/block-party/"
+                href="http://localhost:1313/posts/block-party/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/posts/block-party/"
+                href="http://localhost:1313/es/posts/block-party/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/juegos/</loc>
+    <loc>http://localhost:1313/es/tags/juegos/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/posts/over-the-years/</loc>
+    <loc>http://localhost:1313/es/posts/over-the-years/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/posts/over-the-years/"
+                href="http://localhost:1313/posts/over-the-years/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/posts/over-the-years/"
+                href="http://localhost:1313/es/posts/over-the-years/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/a-lo-largo-de-los-a%C3%B1os/</loc>
+    <loc>http://localhost:1313/es/tags/a-lo-largo-de-los-a%C3%B1os/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/historia/</loc>
+    <loc>http://localhost:1313/es/tags/historia/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/se%C3%B1al/</loc>
+    <loc>http://localhost:1313/es/tags/se%C3%B1al/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/trabajando-juntos/</loc>
+    <loc>http://localhost:1313/es/tags/trabajando-juntos/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/comunidad/</loc>
+    <loc>http://localhost:1313/es/tags/comunidad/</loc>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/faq/</loc>
+    <loc>http://localhost:1313/es/tags/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cambridgevillagehoa.com/tags/faq/"
+                href="http://localhost:1313/tags/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://cambridgevillagehoa.com/es/tags/faq/"
+                href="http://localhost:1313/es/tags/faq/"
                 />
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/informaci%C3%B3n/</loc>
+    <loc>http://localhost:1313/es/tags/informaci%C3%B3n/</loc>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/noticias/</loc>
+    <loc>http://localhost:1313/es/tags/noticias/</loc>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/presidente/</loc>
+    <loc>http://localhost:1313/es/tags/presidente/</loc>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/secretario/</loc>
+    <loc>http://localhost:1313/es/tags/secretario/</loc>
   </url><url>
-    <loc>https://cambridgevillagehoa.com/es/tags/tesorero/</loc>
+    <loc>http://localhost:1313/es/tags/tesorero/</loc>
   </url>
 </urlset>

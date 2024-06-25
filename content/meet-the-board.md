@@ -30,7 +30,7 @@ Contact Email: <vicepresident@cambridgevillagehoa.com>
 Contact Email: <secretary@cambridgevillagehoa.com>
 
 ## Treasurer
-{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
+{{< image src="/images/fletch.jpg" alt="Board Member" width="20%" >}}
 
 #### Fetcha D.
 Contact Email: <treasurer@cambridgevillagehoa.com>

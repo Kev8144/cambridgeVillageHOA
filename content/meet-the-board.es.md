@@ -29,7 +29,7 @@ Contact Email: <vicepresident@cambridgevillagehoa.com>
 Correo de contacto: <secretary@cambridgevillagehoa.com>
 
 ## Tesorero
-{{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
+{{< image src="/images/fletch.jpg" alt="Board Member" width="20%" >}}
 
 #### Fetcha D.
 Correo de contacto: <treasurer@cambridgevillagehoa.com>
@@ -37,5 +37,5 @@ Correo de contacto: <treasurer@cambridgevillagehoa.com>
 ## Director
 {{< image src="/images/placeholder-person.jpg" alt="Board Member" width="20%" >}}
 
-## Vacante
+#### Vacante
 Correo de contacto: <director@cambridgevillagehoa.com>

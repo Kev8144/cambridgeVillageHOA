@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Señal on Cambridge Village HOA</title>
-    <link>https://cambridgevillagehoa.com/es/tags/se%C3%B1al/</link>
+    <link>http://localhost:1313/es/tags/se%C3%B1al/</link>
     <description>Recent content in Señal on Cambridge Village HOA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© Cambridge Village HOA Inc</copyright>
     <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cambridgevillagehoa.com/es/tags/se%C3%B1al/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/se%C3%B1al/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A lo largo de los años</title>
-      <link>https://cambridgevillagehoa.com/es/posts/over-the-years/</link>
+      <link>http://localhost:1313/es/posts/over-the-years/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambridgevillagehoa.com/es/posts/over-the-years/</guid>
+      <guid>http://localhost:1313/es/posts/over-the-years/</guid>
       <description>A través de muchos años de planificación, voluntariado y trabajo en conjunto, hemos creado una comunidad que trabaja y crece unida. ¡Gracias a todos los que han trabajado para construir esta comunidad a lo largo de los años! &amp;hellip;&#xA;Nuestra Señal A lo largo de los Años </description>
     </item>
   </channel>

@@ -10,6 +10,8 @@ draft: "false"
 
 # Noticias y Finanzas del Vecindario
 
+{{< image type="thumbnail" src="/../../album/nn-4-image-es.png"  alt="Imagen en miniatura" >}}&nbsp;
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Descargar" width="20px" >}} Edición 4](/album/NN-4.pdf)
 
 {{< image type="thumbnail" src="/../../album/nn-3-image-es.png"  alt="Imagen en miniatura" >}}&nbsp;
 [{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Descargar" width="20px" >}} Edición 3](/album/NN-3.pdf)

@@ -16,3 +16,5 @@ tags:
 {{< image type="thumbnail" src="/images/1-meet622.jpg" alt="Imagen en miniatura" >}}
 {{< image type="thumbnail" src="/images/2-meet622.jpg" alt="Imagen en miniatura" >}}
 {{< image type="thumbnail" src="/images/4-meet622.jpg" alt="Imagen en miniatura" >}}
+{{< image type="thumbnail" src="/../../album/theHeroesAward-image.png" alt="Imagen en miniatura" >}}&nbsp;&nbsp;&nbsp;<br>
+[Heroes Award](/album/theHeroesAward.pdf)

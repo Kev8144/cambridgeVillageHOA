@@ -10,6 +10,10 @@ draft: "false"
 
 # Neighborhood News and Finances
 
+
+{{< image type="thumbnail" src="/../../album/nn-5-image.png" alt="Thumbnail Image" >}}&nbsp;
+[{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Download" width="20px" >}} Issue 5](/../../album/NN_5.pdf)
+
 {{< image type="thumbnail" src="/../../album/nn-4-image.png" alt="Thumbnail Image" >}}&nbsp;
 [{{< icon src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="Download" width="20px" >}} Issue 4](/../../album/NN_4.pdf)
 

@@ -1,0 +1,22 @@
+<div id="main">
+  <div class="container">
+    <div class="page-header">
+      <h2>{{ 'pages.documents_title' | translate }}</h2>
+      <p>{{ 'pages.documents_description' | translate }}</p>
+    </div>
+    @for (doc of docs(); track doc.file) {
+      <div class="document-item">
+        <h3>{{ doc.title }}</h3>
+        <a [href]="doc.file" target="_blank" rel="noopener" class="download-link">
+          <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="" aria-hidden="true" />
+          {{ doc.label }}
+        </a>
+      </div>
+    }
+    <hr />
+    <p><strong>{{ 'pages.documents_contact' | translate }}</strong></p>
+    <p>{{ 'pages.documents_contact_body' | translate }}
+      <a href="mailto:board@cambridgevillagehoa.com">board&#64;cambridgevillagehoa.com</a>
+    </p>
+  </div>
+</div>

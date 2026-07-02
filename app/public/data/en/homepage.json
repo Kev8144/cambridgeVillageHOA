@@ -1,0 +1,15 @@
+{
+  "banner": {
+    "enable": true,
+    "image": "/images/hoa.jpg"
+  },
+  "highlights": {
+    "items_per_row": 4,
+    "items": [
+      { "title": "Community Events", "icon": "fa-user-friends", "content": "Potlucks, games, and community building events in our cul-de-sac. We will have quarterly events to help us get to know each other better!" },
+      { "title": "HOA Meetings", "icon": "fa-calendar-alt", "content": "Periodic messages, voting, and financials are discussed. Please join us in making decisions and improving our neighborhood." },
+      { "title": "Working Together", "icon": "fa-handshake", "content": "Many hands make light work. Our goal is to help each other by embracing a spirit of kindness, love, and mutual respect." },
+      { "title": "Newsletters", "icon": "fa-newspaper", "content": "Get information about the neighborhood, events, and socials. Stay informed and feel free to present your ideas." }
+    ]
+  }
+}

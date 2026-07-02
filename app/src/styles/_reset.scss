@@ -1,0 +1,53 @@
+@use 'variables' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition);
+
+  &:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin-block: 2rem;
+}

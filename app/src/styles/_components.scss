@@ -1,0 +1,163 @@
+// ─── Buttons ──────────────────────────────────────────────────────────────────
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), opacity var(--transition);
+  border: 2px solid var(--accent);
+  background: var(--accent);
+  color: var(--accent-fg);
+  text-decoration: none;
+
+  &:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+    text-decoration: none;
+    color: var(--accent-fg);
+  }
+
+  &.alt {
+    background: transparent;
+    color: var(--accent);
+
+    &:hover {
+      background: var(--accent);
+      color: var(--accent-fg);
+    }
+  }
+
+  &.disabled,
+  &[disabled] {
+    opacity: 0.4;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}
+
+input[type="submit"].button {
+  cursor: pointer;
+}
+
+// ─── Action groups ─────────────────────────────────────────────────────────────
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+
+  &.special { justify-content: center; }
+}
+
+// ─── Box / Card ────────────────────────────────────────────────────────────────
+
+.box {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+
+  &.special {
+    text-align: center;
+    background: linear-gradient(135deg, #f0f4f0 0%, var(--bg-alt) 100%);
+    border-color: rgba(4, 48, 6, 0.15);
+  }
+}
+
+// ─── Collapsible (FAQ) ────────────────────────────────────────────────────────
+
+.collapsible {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+
+  details { }
+
+  summary {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--fg-bold);
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    background: var(--bg-alt);
+    transition: background var(--transition);
+
+    &::-webkit-details-marker { display: none; }
+
+    // Custom arrow
+    &::before {
+      content: '▶';
+      font-size: 0.65rem;
+      color: var(--accent);
+      transition: transform var(--transition);
+      flex-shrink: 0;
+    }
+
+    &:hover { background: #edf2ed; }
+  }
+
+  details[open] > summary {
+    background: #e4ede4;
+    border-bottom: 1px solid var(--border);
+
+    &::before { transform: rotate(90deg); }
+  }
+
+  .collapsible-content {
+    padding: 1rem 1.25rem;
+    line-height: 1.7;
+  }
+}
+
+// ─── Responsive thumbnail ──────────────────────────────────────────────────────
+
+.responsive-thumbnail {
+  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  vertical-align: top;
+  margin: 0.25rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img { transform: scale(1.03); }
+}
+
+// ─── Page header ──────────────────────────────────────────────────────────────
+
+.page-header {
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1.8rem;
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.4rem;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+  }
+
+  p { color: var(--fg-light); }
+}

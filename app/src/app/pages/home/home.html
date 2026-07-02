@@ -1,0 +1,63 @@
+@if (homepage(); as hp) {
+  <!-- Photo collage banner -->
+  <div class="banner-collage" aria-hidden="true">
+    <div class="banner-collage__img"><img src="/images/1-meet622.jpg"   alt="" loading="eager" /></div>
+    <div class="banner-collage__img"><img src="/images/bbq20231.jpeg"   alt="" loading="eager" /></div>
+    <div class="banner-collage__img"><img src="/album/5PLANNING.jpg"    alt="" loading="eager" /></div>
+    <div class="banner-collage__img"><img src="/images/2-meet622.jpg"   alt="" loading="eager" /></div>
+    <div class="banner-collage__img"><img src="/album/10PHASE1.jpg"     alt="" loading="eager" /></div>
+    <div class="banner-collage__img"><img src="/images/4-meet622.jpg"   alt="" loading="eager" /></div>
+    <div class="banner-collage__title" aria-hidden="false">Cambridge Village HOA</div>
+  </div>
+
+  <div id="main">
+    <div class="container">
+
+      <!-- Highlights -->
+      <section class="highlights" style="margin-bottom:2.5rem;">
+        <div class="row">
+          @for (item of hp.highlights.items; track item.title) {
+            <section>
+              <span class="icon major fas {{ item.icon }}"></span>
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.content }}</p>
+            </section>
+          }
+        </div>
+      </section>
+
+      <!-- Heading block -->
+      <div class="box special" style="margin-bottom:2.5rem;">
+        <h2>{{ 'home.heading' | translate }}</h2>
+        <p>{{ 'home.heading_body' | translate }}</p>
+      </div>
+
+      <!-- Recent posts -->
+      @if (posts().length) {
+        <section class="posts-grid" style="margin-bottom:2.5rem;">
+          <div class="row">
+            @for (post of posts(); track post.slug) {
+              <article>
+                <a [routerLink]="['/', lang, 'posts', post.slug]" class="image fit">
+                  <img [src]="post.image" [alt]="post.title" loading="lazy" />
+                </a>
+                <header>
+                  <h3><a [routerLink]="['/', lang, 'posts', post.slug]">{{ post.title }}</a></h3>
+                </header>
+              </article>
+            }
+          </div>
+        </section>
+      }
+
+      <!-- Pay dues CTA -->
+      <div class="box special">
+        <p>{{ 'home.cta' | translate }}</p>
+        <ul class="actions special">
+          <li><a href="#" class="button disabled">{{ 'home.cta_btn' | translate }}</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+}

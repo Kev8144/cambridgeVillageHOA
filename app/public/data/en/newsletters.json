@@ -1,0 +1,7 @@
+[
+  { "issue": 5, "label": "Issue 5", "pdf": "/album/NN_5.pdf", "thumbnail": "/album/nn-5-image.png" },
+  { "issue": 4, "label": "Issue 4", "pdf": "/album/NN_4.pdf", "thumbnail": "/album/nn-4-image.png" },
+  { "issue": 3, "label": "Issue 3", "pdf": "/album/NN_3.pdf", "thumbnail": "/album/nn-3-image.png" },
+  { "issue": 2, "label": "Issue 2", "pdf": "/album/NN_2.pdf", "thumbnail": "/album/nn-2-image.png" },
+  { "issue": 1, "label": "Issue 1", "pdf": "/album/NN_1.pdf", "thumbnail": "/album/nn-1-image.png" }
+]

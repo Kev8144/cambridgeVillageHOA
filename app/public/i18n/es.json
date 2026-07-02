@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "newsletters": "Boletines",
+    "documents": "Documentos",
+    "faq": "Preguntas Frecuentes",
+    "meet_the_board": "Conozca la Junta"
+  },
+  "lang_switch": "Seleccionar idioma",
+  "footer": {
+    "links": [
+      {
+        "header": "Preguntas Frecuentes",
+        "items": [{ "title": "¿Cómo puedo...", "url": "/es/faq" }]
+      },
+      {
+        "header": "Próximamente...",
+        "items": [{ "title": "Pagos", "url": "#" }]
+      }
+    ],
+    "contact": {
+      "header": "Contactar a la Junta",
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "pages": {
+    "home_title": "Inicio",
+    "faq_title": "Preguntas Frecuentes",
+    "faq_description": "Preguntas frecuentes",
+    "documents_title": "Documentos",
+    "documents_description": "Descargue los documentos necesarios a continuación.",
+    "documents_contact": "¿Alguna pregunta o preocupación?",
+    "documents_contact_body": "Por favor, contacte con la junta:",
+    "newsletters_title": "Boletines",
+    "newsletters_heading": "Noticias y Finanzas del Vecindario",
+    "meet_the_board_title": "Conozca la Junta",
+    "meet_the_board_description": "Miembros Activos de la Junta 2024-2025",
+    "posts_title": "Publicaciones"
+  },
+  "home": {
+    "heading": "¿Tienes una idea comunitaria?",
+    "heading_body": "¡Por favor, únase a nosotros en una reunión de la HOA o evento comunitario!",
+    "cta": "¿Busca pagar sus cuotas de la HOA?",
+    "cta_btn": "Próximamente"
+  }
+}

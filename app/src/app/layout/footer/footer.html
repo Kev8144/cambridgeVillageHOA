@@ -1,0 +1,53 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+
+      <section class="col-3 col-6-narrower col-12-mobilep">
+        <h3>{{ 'footer.links.0.header' | translate }}</h3>
+        <ul class="links">
+          <li><a [routerLink]="['/', lang, 'faq']">{{ 'footer.links.0.items.0.title' | translate }}</a></li>
+        </ul>
+      </section>
+
+      <section class="col-3 col-6-narrower col-12-mobilep">
+        <h3>{{ 'footer.links.1.header' | translate }}</h3>
+        <ul class="links">
+          <li><a href="#">{{ 'footer.links.1.items.0.title' | translate }}</a></li>
+        </ul>
+      </section>
+
+      <section class="col-6 col-12-narrower">
+        <h3>{{ 'footer.contact.header' | translate }}</h3>
+        @if (!submitted()) {
+          <form (submit)="submit($event)" novalidate>
+            <div class="row gtr-50">
+              <div class="col-6 col-12-mobilep">
+                <input type="text" [placeholder]="'footer.contact.name' | translate" [value]="formName()" (input)="formName.set($any($event.target).value)" />
+              </div>
+              <div class="col-6 col-12-mobilep">
+                <input type="email" [placeholder]="'footer.contact.email' | translate" [value]="formEmail()" (input)="formEmail.set($any($event.target).value)" />
+              </div>
+              <div class="col-12">
+                <textarea [placeholder]="'footer.contact.message' | translate" [value]="formMessage()" (input)="formMessage.set($any($event.target).value)" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <ul class="actions">
+                  <li><input type="submit" class="button" [value]="'footer.contact.submit' | translate" /></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        } @else {
+          <p style="color:var(--dark-fg);">&#10003; Message sent — we will be in touch!</p>
+        }
+      </section>
+
+    </div>
+  </div>
+
+  <div id="copyright">
+    <ul class="menu">
+      <li>&copy; Cambridge Village HOA Inc</li>
+    </ul>
+  </div>
+</footer>

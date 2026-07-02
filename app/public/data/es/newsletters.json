@@ -1,0 +1,6 @@
+[
+  { "issue": 4, "label": "Edición 4", "pdf": "/album/NN-4.pdf", "thumbnail": "/album/nn-4-image-es.png" },
+  { "issue": 3, "label": "Edición 3", "pdf": "/album/NN-3.pdf", "thumbnail": "/album/nn-3-image-es.png" },
+  { "issue": 2, "label": "Edición 2", "pdf": "/album/NN-2.pdf", "thumbnail": "/album/nn-2-image-es.png" },
+  { "issue": 1, "label": "Edición 1", "pdf": "/album/NN-1.pdf", "thumbnail": "/album/nn-1-image-es.png" }
+]

@@ -1,0 +1,27 @@
+<div id="main">
+  <div class="container">
+    <div class="page-header">
+      <h2>{{ 'pages.posts_title' | translate }}</h2>
+    </div>
+    <div class="posts-list">
+      <div class="row">
+        @for (post of posts(); track post.slug) {
+          <article>
+            <a [routerLink]="['/', lang, 'posts', post.slug]" class="image fit">
+              <img [src]="post.image" [alt]="post.title" loading="lazy" />
+            </a>
+            <header>
+              <h3><a [routerLink]="['/', lang, 'posts', post.slug]">{{ post.title }}</a></h3>
+              <p>{{ post.date | date:'mediumDate' }}</p>
+            </header>
+            <div class="tags">
+              @for (tag of post.tags; track tag) {
+                <span class="tag">{{ tag }}</span>
+              }
+            </div>
+          </article>
+        }
+      </div>
+    </div>
+  </div>
+</div>

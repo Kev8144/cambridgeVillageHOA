@@ -1,0 +1,30 @@
+// CSS Custom Properties — available everywhere at runtime
+:root {
+  --bg:           #fff;
+  --bg-alt:       #f7f7f7;
+  --fg:           #474747;
+  --fg-bold:      #4c4c4c;
+  --fg-light:     #999;
+  --border:       #e0e0e0;
+
+  --accent:       #043006;
+  --accent-hover: #065c0a;
+  --accent-fg:    #fff;
+
+  --dark:         #333;
+  --dark-light:   #555;
+  --dark-bold:    #1f1f1f;
+  --dark-fg:      #c0c0c0;
+
+  --font:         'Source Sans Pro', Helvetica, sans-serif;
+  --radius:       0.375rem;
+  --shadow:       0 2px 8px rgba(0, 0, 0, 0.08);
+  --transition:   0.2s ease;
+  --max-width:    1200px;
+  --gap:          1.5rem;
+}
+
+// SCSS breakpoint variables (build-time only)
+$bp-narrower: 840px;
+$bp-mobile:   736px;
+$bp-mobilep:  480px;

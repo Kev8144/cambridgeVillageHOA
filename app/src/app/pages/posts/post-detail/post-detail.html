@@ -1,0 +1,21 @@
+<div id="main">
+  <div class="container">
+    @if (post(); as p) {
+      <article>
+        <header>
+          <h2>{{ p.title }}</h2>
+          <p>{{ p.date | date:'longDate' }}</p>
+        </header>
+        @if (p.image) {
+          <div class="image main">
+            <img [src]="p.image" [alt]="p.title" loading="lazy" />
+          </div>
+        }
+        <div class="post-body" [innerHTML]="body()"></div>
+      </article>
+    }
+    <ul class="actions" style="margin-top:2rem;">
+      <li><a [routerLink]="['/', lang, 'posts']" class="button alt">← {{ 'pages.posts_title' | translate }}</a></li>
+    </ul>
+  </div>
+</div>

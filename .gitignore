@@ -1,27 +1,36 @@
-.DS_Store
-/exampleSite/
-exampleSite/resources/_gen/
-exampleSite/public/
-resources/_gen/
-.hugo_build.lock
+# Created by https://www.toptal.com/developers/gitignore/api/angular
+# Edit at https://www.toptal.com/developers/gitignore?templates=angular
 
-# Created by https://www.toptal.com/developers/gitignore/api/hugo
-# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
+### Angular ###
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
 
-### Hugo ###
-# Generated files by hugo
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
-/public
-public
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# dependencies
+node_modules/
+bower_components/
 
-# Temporary lock file while building
-/.hugo_build.lock
+# IDEs and editors
+.idea/
 
-# End of https://www.toptal.com/developers/gitignore/api/hugo
-/node_modules
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+testem.log
+typings/
+.angular/
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store/
+
+# End of https://www.toptal.com/developers/gitignore/api/angular

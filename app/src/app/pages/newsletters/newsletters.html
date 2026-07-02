@@ -1,0 +1,21 @@
+<div id="main">
+  <div class="container">
+    <div class="page-header">
+      <h2>{{ 'pages.newsletters_title' | translate }}</h2>
+    </div>
+    <h3 style="margin-bottom:1.5rem;">{{ 'pages.newsletters_heading' | translate }}</h3>
+    @for (issue of issues(); track issue.issue) {
+      <div class="newsletter-item">
+        <div class="newsletter-thumb">
+          <a [href]="issue.pdf" target="_blank" rel="noopener">
+            <img [src]="issue.thumbnail" alt="Newsletter thumbnail" loading="lazy" />
+          </a>
+        </div>
+        <a [href]="issue.pdf" target="_blank" rel="noopener" class="download-link">
+          <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="" aria-hidden="true" />
+          {{ issue.label }}
+        </a>
+      </div>
+    }
+  </div>
+</div>

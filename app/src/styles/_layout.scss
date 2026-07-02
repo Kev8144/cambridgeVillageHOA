@@ -1,0 +1,46 @@
+@use 'variables' as *;
+
+// ─── Container ────────────────────────────────────────────────────────────────
+
+.container {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: var(--gap);
+}
+
+// ─── 12-column CSS Grid ────────────────────────────────────────────────────────
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gap);
+
+  &.gtr-50 { gap: calc(var(--gap) * 0.5); }
+}
+
+// Base column spans
+.col-3  { grid-column: span 3; }
+.col-6  { grid-column: span 6; }
+.col-12 { grid-column: span 12; }
+
+// Narrower breakpoint (≤840px): responsive modifiers kick in
+@media (max-width: $bp-narrower) {
+  .col-6-narrower  { grid-column: span 6; }
+  .col-12-narrower { grid-column: span 12; }
+
+  // Unmodified col-3 becomes col-6 at this breakpoint
+  .col-3:not([class*="-narrower"]) { grid-column: span 6; }
+}
+
+// Mobile portrait (≤480px): everything goes full-width
+@media (max-width: $bp-mobilep) {
+  .col-12-mobilep { grid-column: span 12; }
+
+  .col-3,
+  .col-6 { grid-column: span 12; }
+}
+
+// ─── Page sections ─────────────────────────────────────────────────────────────
+
+#main {
+}

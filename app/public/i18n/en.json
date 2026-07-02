@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "newsletters": "Newsletters",
+    "documents": "Documents",
+    "faq": "FAQ",
+    "meet_the_board": "Meet the Board"
+  },
+  "lang_switch": "Select language",
+  "footer": {
+    "links": [
+      {
+        "header": "Frequently Asked Questions",
+        "items": [{ "title": "How do I...", "url": "/en/faq" }]
+      },
+      {
+        "header": "Coming soon...",
+        "items": [{ "title": "Payments", "url": "#" }]
+      }
+    ],
+    "contact": {
+      "header": "Contact the Board",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "pages": {
+    "home_title": "Home",
+    "faq_title": "FAQ",
+    "faq_description": "Frequently asked questions",
+    "documents_title": "Documents",
+    "documents_description": "Download any documents needed below.",
+    "documents_contact": "Any questions or concerns?",
+    "documents_contact_body": "Please contact the board:",
+    "newsletters_title": "Newsletters",
+    "newsletters_heading": "Neighborhood News and Finances",
+    "meet_the_board_title": "Meet the Board",
+    "meet_the_board_description": "2024-2025 Active Board Members",
+    "posts_title": "Posts"
+  },
+  "home": {
+    "heading": "Do you have a community idea?",
+    "heading_body": "Please join us at an HOA meeting or Community event!",
+    "cta": "Looking to pay your HOA dues?",
+    "cta_btn": "Coming soon"
+  }
+}

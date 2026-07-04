@@ -1,6 +1,6 @@
 [
-  { "slug": "hoa-meeting", "title": "Reunión de HOA el 22 de junio de 2024", "date": "2024-06-10", "image": "/images/3-meet622.jpg", "tags": ["reunión de HOA"] },
-  { "slug": "potluck", "title": "Comida Comunitaria del Vecindario", "date": "2024-02-24", "image": "/images/IMG_1363.jpeg", "tags": ["potluck", "comida internacional"] },
-  { "slug": "block-party", "title": "Fiesta en la Calle", "date": "2023-05-20", "image": "/images/bbq20231.jpeg", "tags": ["bloque", "fiesta", "comida"] },
+  { "slug": "hoa-meeting", "title": "Reunión de HOA el 22 de junio de 2024", "date": "2024-06-10", "image": "/images/new/3-meet622.webp", "tags": ["reunión de HOA"] },
+  { "slug": "potluck", "title": "Comida Comunitaria del Vecindario", "date": "2024-02-24", "image": "/images/new/IMG_1363low.jpg", "tags": ["potluck", "comida internacional"] },
+  { "slug": "block-party", "title": "Fiesta en la Calle", "date": "2023-05-20", "image": "/images/new/bbq20231.webp", "tags": ["bloque", "fiesta", "comida"] },
   { "slug": "over-the-years", "title": "A lo largo de los años", "date": "2020-01-04", "image": "/album/5PLANNING.jpg", "tags": ["historia", "a lo largo de los años"] }
 ]

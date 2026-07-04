@@ -25,14 +25,14 @@
 
 #banner {
     position: relative; /* This is needed to position the pseudo-element absolutely within the banner */
-    background-image: url('/images/hoa.jpg');
+    background-image: url('/images/new/hoa.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 45vh; /* Adjust this to set the height of the banner */
     width: 100%;
   }
-  
+
 //   #banner::before {
 //     content: ""; /* This is necessary for the pseudo-element to be generated */
 //     position: absolute;
@@ -65,21 +65,20 @@
     cursor: pointer; /* To indicate it's clickable */
     /* Add any other styles to match your site's <h1> tags */
   }
-  
+
   .collapsible details {
     margin-bottom: 1em; /* Space below the collapsible */
   }
-  
+
   .collapsible-content {
     padding: 0.5em 0; /* Padding inside the content area */
-    
+
   }
-  
+
   .collapsible:not(:first-child) {
     padding-top: 20px; /* Adjust the value as needed */
   }
-  
+
   .collapsible-content {
     padding-top: 20px; /* Adjust this value to your preference */
   }
-  

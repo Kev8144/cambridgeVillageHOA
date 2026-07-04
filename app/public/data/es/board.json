@@ -1,7 +1,7 @@
 [
-  { "role": "Presidente", "name": "Dwayne M.", "email": "president@cambridgevillagehoa.com", "photo": "/images/president2324.jpeg" },
-  { "role": "Vice Presidente", "name": "Ebony G.", "email": "vicepresident@cambridgevillagehoa.com", "photo": "/images/ebonyG.jpg" },
-  { "role": "Secretario", "name": "Ana A.", "email": "secretary@cambridgevillagehoa.com", "photo": "/images/anapic.jpg" },
-  { "role": "Tesorero", "name": "Fetcha D.", "email": "treasurer@cambridgevillagehoa.com", "photo": "/images/fletch.jpg" },
-  { "role": "Director", "name": "Vacante", "email": "director@cambridgevillagehoa.com", "photo": "/images/placeholder-person.jpg" }
+  { "role": "Presidente", "name": "Dwayne M.", "email": "president@cambridgevillagehoa.com", "photo": "/images/new/president2324.webp" },
+  { "role": "Vice Presidente", "name": "Ebony G.", "email": "vicepresident@cambridgevillagehoa.com", "photo": "/images/new/ebonyG.webp" },
+  { "role": "Secretario", "name": "Ana A.", "email": "secretary@cambridgevillagehoa.com", "photo": "/images/new/anapic.webp" },
+  { "role": "Tesorero", "name": "Fetcha D.", "email": "treasurer@cambridgevillagehoa.com", "photo": "/images/new/fletch.webp" },
+  { "role": "Director", "name": "Vacante", "email": "director@cambridgevillagehoa.com", "photo": "/images/new/placeholder-person.webp" }
 ]

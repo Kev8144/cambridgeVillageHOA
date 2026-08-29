@@ -66,7 +66,12 @@ export class AuthService {
   }
 
   setPassword(token: string, password: string) {
-    return this.http.post<{ message: string }>(`${API}/auth/set-password`, { token, password });
+    return this.http.post<TokenResponse>(`${API}/auth/set-password`, { token, password }).pipe(
+      tap(res => {
+        this.setTokens(res);
+        this.loadProfile();
+      })
+    );
   }
 
   loadProfile(): void {

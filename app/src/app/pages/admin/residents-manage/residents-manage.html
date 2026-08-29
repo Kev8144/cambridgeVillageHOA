@@ -36,7 +36,17 @@
           </div>
         </div>
         <div class="form-row">
-          <div class="field"><label>Position</label><input [value]="invitePosition()" (input)="invitePosition.set($any($event.target).value)" placeholder="e.g. President, VP, Secretary\" /></div>
+          <div class="field">
+            <label>Position</label>
+            <select [value]="invitePosition()" (change)="invitePosition.set($any($event.target).value)">
+              <option value="">— None —</option>
+              <option value="President">President</option>
+              <option value="Vice President">Vice President</option>
+              <option value="Secretary">Secretary</option>
+              <option value="Treasurer">Treasurer</option>
+              <option value="Director">Director</option>
+            </select>
+          </div>
           <div class="field">
             <label>Home</label>
             <select (change)="inviteHomeId.set($any($event.target).value ? +$any($event.target).value : null)">

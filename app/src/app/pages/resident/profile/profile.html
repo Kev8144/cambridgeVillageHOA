@@ -1,6 +1,11 @@
 <div id="main">
   <div class="container auth-form">
     <h2>{{ 'auth.profile_title' | translate }}</h2>
+    <div class="field">
+      <label style="display:block;font-weight:600;font-size:0.85rem;margin-bottom:0.25rem;">{{ 'auth.login_username' | translate }}</label>
+      <input type="email" [value]="auth.user()?.email" readonly style="background:var(--bg-alt);cursor:not-allowed;" />
+      <small style="color:var(--fg-light);">{{ 'auth.login_username_hint' | translate }}</small>
+    </div>
     <form (submit)="saveProfile($event)" novalidate>
       @if (message()) { <p class="auth-message">{{ message() | translate }}</p> }
       @if (error()) { <p class="form-error">{{ error() | translate }}</p> }

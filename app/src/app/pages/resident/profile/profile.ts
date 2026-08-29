@@ -9,7 +9,7 @@ import { AuthService } from '../../../core/auth.service';
   styleUrl: '../../login/login.scss',
 })
 export class Profile implements OnInit {
-  private auth = inject(AuthService);
+  auth = inject(AuthService);
   private translate = inject(TranslateService);
 
   name = signal('');

@@ -46,13 +46,17 @@ export class ResetPassword {
     }
 
     this.loading.set(true);
-    const call = this.isInvite
-      ? this.auth.setPassword(this.token, this.password())
-      : this.auth.resetPassword(this.token, this.password());
-
-    call.subscribe({
-      next: () => { this.success.set(true); this.loading.set(false); },
-      error: () => { this.error.set('auth.reset_error'); this.loading.set(false); }
-    });
+    if (this.isInvite) {
+      // Enrolled + auto-logged-in → go straight to their dashboard.
+      this.auth.setPassword(this.token, this.password()).subscribe({
+        next: () => { this.loading.set(false); this.router.navigate(['/', this.lang, 'resident']); },
+        error: () => { this.error.set('auth.reset_error'); this.loading.set(false); }
+      });
+    } else {
+      this.auth.resetPassword(this.token, this.password()).subscribe({
+        next: () => { this.success.set(true); this.loading.set(false); },
+        error: () => { this.error.set('auth.reset_error'); this.loading.set(false); }
+      });
+    }
   }
 }

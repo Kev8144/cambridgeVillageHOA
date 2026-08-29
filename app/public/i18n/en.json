@@ -93,6 +93,8 @@
     "password_min_length": "Password must be at least 8 characters.",
     "password_mismatch": "Passwords do not match.",
     "profile_title": "My Profile",
+    "login_username": "Login Email (username)",
+    "login_username_hint": "This is the email you use to log in.",
     "name": "Name",
     "address": "Address",
     "phone": "Phone",

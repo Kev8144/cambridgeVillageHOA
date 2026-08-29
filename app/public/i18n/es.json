@@ -93,6 +93,8 @@
     "password_min_length": "La contraseña debe tener al menos 8 caracteres.",
     "password_mismatch": "Las contraseñas no coinciden.",
     "profile_title": "Mi Perfil",
+    "login_username": "Correo de Acceso (usuario)",
+    "login_username_hint": "Este es el correo que usa para iniciar sesión.",
     "name": "Nombre",
     "address": "Dirección",
     "phone": "Teléfono",

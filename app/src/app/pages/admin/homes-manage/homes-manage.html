@@ -1,0 +1,40 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.homes' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>{{ 'admin.address' | translate }}</label><input [value]="e.address" (input)="setField('address', $any($event.target).value)" /></div>
+          <div class="field"><label>{{ 'admin.lot_number' | translate }}</label><input [value]="e.lotNumber ?? ''" (input)="setField('lotNumber', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>{{ 'admin.lot_number' | translate }}</th><th>{{ 'admin.address' | translate }}</th><th>{{ 'admin.residents' | translate }}</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.lotNumber ?? '—' }}</td>
+            <td>{{ item.address }}</td>
+            <td>
+              @for (r of item.residents ?? []; track r.id) {
+                <span>{{ r.name }}<br/></span>
+              }
+            </td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

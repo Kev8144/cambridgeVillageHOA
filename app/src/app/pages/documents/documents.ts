@@ -13,6 +13,8 @@ export class Documents implements OnInit {
   private translate = inject(TranslateService);
 
   docs = signal<Document[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -22,6 +24,11 @@ export class Documents implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getDocuments(this.lang).subscribe(d => this.docs.set(d));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getDocuments(this.lang).subscribe({
+      next: d => { this.docs.set(d); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

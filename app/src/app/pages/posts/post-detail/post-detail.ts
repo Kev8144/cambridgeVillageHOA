@@ -17,6 +17,8 @@ export class PostDetail implements OnInit {
 
   post = signal<Post | null>(null);
   body = signal<string>('');
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -26,10 +28,16 @@ export class PostDetail implements OnInit {
   }
 
   private loadData(): void {
+    this.loading.set(true);
+    this.error.set(false);
     const slug = this.route.snapshot.paramMap.get('slug') ?? '';
-    this.content.getPosts(this.lang).subscribe(posts => {
-      this.post.set(posts.find(p => p.slug === slug) ?? null);
+    this.content.getPosts(this.lang).subscribe({
+      next: posts => this.post.set(posts.find(p => p.slug === slug) ?? null),
+      error: () => {}
     });
-    this.content.getPost(this.lang, slug).subscribe(data => this.body.set(data.body));
+    this.content.getPost(this.lang, slug).subscribe({
+      next: data => { this.body.set(data.body); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

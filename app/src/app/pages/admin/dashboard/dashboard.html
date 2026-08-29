@@ -1,0 +1,34 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="page-header">
+      <h2>{{ 'admin.dashboard_title' | translate }}</h2>
+      <p>{{ 'admin.dashboard_description' | translate }}</p>
+    </div>
+    <div class="admin-nav">
+      <a [routerLink]="['/', lang, 'admin', 'posts']" class="admin-nav-card">
+        <h3>{{ 'admin.posts' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'newsletters']" class="admin-nav-card">
+        <h3>{{ 'admin.newsletters' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'documents']" class="admin-nav-card">
+        <h3>{{ 'admin.documents' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'faq']" class="admin-nav-card">
+        <h3>{{ 'admin.faq' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'board']" class="admin-nav-card">
+        <h3>{{ 'admin.board' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'residents']" class="admin-nav-card">
+        <h3>{{ 'admin.residents' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'homes']" class="admin-nav-card">
+        <h3>{{ 'admin.homes' | translate }}</h3>
+      </a>
+      <a [routerLink]="['/', lang, 'admin', 'financials']" class="admin-nav-card">
+        <h3>{{ 'admin.financials' | translate }}</h3>
+      </a>
+    </div>
+  </div>
+</div>

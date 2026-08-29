@@ -13,6 +13,8 @@ export class MeetTheBoard implements OnInit {
   private translate = inject(TranslateService);
 
   members = signal<BoardMember[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -22,6 +24,11 @@ export class MeetTheBoard implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getBoard(this.lang).subscribe(m => this.members.set(m));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getBoard(this.lang).subscribe({
+      next: m => { this.members.set(m); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

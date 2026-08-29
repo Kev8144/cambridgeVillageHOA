@@ -4,7 +4,13 @@
     "newsletters": "Boletines",
     "documents": "Documentos",
     "faq": "Preguntas Frecuentes",
-    "meet_the_board": "Conozca la Junta"
+    "meet_the_board": "Conozca la Junta",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "profile": "Mi Cuenta",
+    "admin": "Admin",
+    "dashboard": "Mi Cuenta",
+    "treasurer": "Finanzas"
   },
   "lang_switch": "Seleccionar idioma",
   "footer": {
@@ -14,8 +20,8 @@
         "items": [{ "title": "¿Cómo puedo...", "url": "/es/faq" }]
       },
       {
-        "header": "Próximamente...",
-        "items": [{ "title": "Pagos", "url": "#" }]
+        "header": "Portal de Residentes",
+        "items": [{ "title": "Pagar Cuotas", "url": "/es/resident" }]
       }
     ],
     "contact": {
@@ -23,7 +29,8 @@
       "name": "Nombre",
       "email": "Correo",
       "message": "Mensaje",
-      "submit": "Enviar Mensaje"
+      "submit": "Enviar Mensaje",
+      "sent": "¡Mensaje enviado — nos pondremos en contacto!"
     }
   },
   "pages": {
@@ -44,6 +51,97 @@
     "heading": "¿Tienes una idea comunitaria?",
     "heading_body": "¡Por favor, únase a nosotros en una reunión de la HOA o evento comunitario!",
     "cta": "¿Busca pagar sus cuotas de la HOA?",
-    "cta_btn": "Próximamente"
+    "cta_btn": "Pagar Cuotas"
+  },
+  "not_found": {
+    "message": "Lo sentimos, la página que buscas no existe.",
+    "back": "Ir al Inicio"
+  },
+  "error": {
+    "load_failed": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+  },
+  "loading": "Cargando…",
+  "form_errors": {
+    "name_required": "El nombre es obligatorio.",
+    "email_required": "El correo es obligatorio.",
+    "email_invalid": "Por favor, introduzca un correo válido.",
+    "message_required": "El mensaje es obligatorio.",
+    "submit_failed": "No se pudo enviar el mensaje. Por favor, inténtelo de nuevo."
+  },
+  "auth": {
+    "login_title": "Iniciar Sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login_btn": "Iniciar Sesión",
+    "login_error": "Correo o contraseña inválidos.",
+    "forgot_link": "¿Olvidó su contraseña?",
+    "forgot_title": "Olvidé mi Contraseña",
+    "forgot_description": "Ingrese su correo y le enviaremos un enlace para restablecer.",
+    "forgot_btn": "Enviar Enlace",
+    "forgot_sent": "Si ese correo está registrado, se ha enviado un enlace.",
+    "back_to_login": "Volver a Iniciar Sesión",
+    "reset_title": "Restablecer Contraseña",
+    "set_password_title": "Establezca su Contraseña",
+    "new_password": "Nueva contraseña",
+    "confirm_password": "Confirmar contraseña",
+    "reset_btn": "Guardar Contraseña",
+    "reset_success": "Su contraseña ha sido actualizada. Ya puede iniciar sesión.",
+    "reset_error": "Enlace inválido o expirado. Solicite uno nuevo.",
+    "password_min_length": "La contraseña debe tener al menos 8 caracteres.",
+    "password_mismatch": "Las contraseñas no coinciden.",
+    "profile_title": "Mi Perfil",
+    "name": "Nombre",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "save": "Guardar",
+    "profile_saved": "Perfil actualizado.",
+    "change_password": "Cambiar Contraseña",
+    "current_password": "Contraseña actual",
+    "change_password_btn": "Actualizar Contraseña",
+    "password_changed": "Contraseña actualizada.",
+    "password_change_error": "La contraseña actual es incorrecta."
+  },
+  "admin": {
+    "dashboard_title": "Panel de Administración",
+    "dashboard_description": "Administre el contenido y residentes de su HOA desde aquí.",
+    "posts": "Publicaciones",
+    "newsletters": "Boletines",
+    "documents": "Documentos",
+    "faq": "Preguntas Frecuentes",
+    "board": "Miembros de la Junta",
+    "residents": "Residentes",
+    "add": "Agregar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "invite": "Invitar Residente",
+    "send_invite": "Enviar Invitación",
+    "activate": "Activar",
+    "deactivate": "Desactivar",
+    "homes": "Hogares",
+    "address": "Dirección",
+    "lot_number": "Lote #",
+    "financials": "Finanzas",
+    "financials_title": "Resumen Financiero",
+    "total_outstanding": "Total Pendiente",
+    "total_collected": "Total Recaudado",
+    "total_overdue": "Total Atrasado",
+    "balances_by_home": "Saldos por Hogar"
+  },
+  "resident": {
+    "dashboard_title": "Mi Panel",
+    "welcome": "Bienvenido",
+    "balance_due": "Saldo Pendiente",
+    "total_paid": "Total Pagado",
+    "overdue_count": "Pagos Atrasados",
+    "payment_history": "Historial de Pagos",
+    "description": "Descripción",
+    "amount": "Monto",
+    "due_date": "Fecha de Vencimiento",
+    "status": "Estado",
+    "paid_date": "Fecha de Pago",
+    "no_records": "No se encontraron registros de cuotas.",
+    "pay_now": "Pagar Ahora"
   }
 }

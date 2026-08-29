@@ -1,0 +1,41 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.newsletters' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>Issue #</label><input type="number" [value]="e.issue" (input)="setField('issue', +$any($event.target).value)" /></div>
+          <div class="field"><label>Label (EN)</label><input [value]="e.labelEn" (input)="setField('labelEn', $any($event.target).value)" /></div>
+          <div class="field"><label>Label (ES)</label><input [value]="e.labelEs" (input)="setField('labelEs', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>PDF Path</label><input [value]="e.pdfPath" (input)="setField('pdfPath', $any($event.target).value)" /><input type="file" accept=".pdf" (change)="upload('pdfPath', $event)" /></div>
+          <div class="field"><label>Thumbnail Path</label><input [value]="e.thumbnailPath" (input)="setField('thumbnailPath', $any($event.target).value)" /><input type="file" accept=".png,.jpg,.jpeg,.webp" (change)="upload('thumbnailPath', $event)" /></div>
+        </div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>#</th><th>Label (EN)</th><th>PDF</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.issue }}</td>
+            <td>{{ item.labelEn }}</td>
+            <td>{{ item.pdfPath }}</td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

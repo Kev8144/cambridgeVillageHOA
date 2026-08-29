@@ -4,6 +4,11 @@
       <h2>{{ 'pages.documents_title' | translate }}</h2>
       <p>{{ 'pages.documents_description' | translate }}</p>
     </div>
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else if (error()) {
+      <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
+    } @else {
     @for (doc of docs(); track doc.file) {
       <div class="document-item">
         <h3>{{ doc.title }}</h3>
@@ -12,6 +17,7 @@
           {{ doc.label }}
         </a>
       </div>
+    }
     }
     <hr />
     <p><strong>{{ 'pages.documents_contact' | translate }}</strong></p>

@@ -1,0 +1,59 @@
+.resident-dashboard {
+  padding: 2rem 0;
+
+  .welcome {
+    color: var(--fg-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    text-align: center;
+  }
+  .card-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--fg-light);
+    margin-bottom: 0.5rem;
+  }
+  .card-value {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    &.overdue { color: #e74c3c; }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    th, td {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    th { font-weight: 600; background: var(--bg-alt); }
+  }
+
+  .status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    &[data-status="Paid"] { background: #d4edda; color: #155724; }
+    &[data-status="Pending"] { background: #fff3cd; color: #856404; }
+    &[data-status="Overdue"] { background: #f8d7da; color: #721c24; }
+  }
+}

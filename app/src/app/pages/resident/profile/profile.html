@@ -1,0 +1,38 @@
+<div id="main">
+  <div class="container auth-form">
+    <h2>{{ 'auth.profile_title' | translate }}</h2>
+    <form (submit)="saveProfile($event)" novalidate>
+      @if (message()) { <p class="auth-message">{{ message() | translate }}</p> }
+      @if (error()) { <p class="form-error">{{ error() | translate }}</p> }
+      <div class="field">
+        <input type="text" [placeholder]="'auth.name' | translate" [value]="name()" (input)="name.set($any($event.target).value)" />
+      </div>
+      <div class="field">
+        <input type="text" [placeholder]="'auth.address' | translate" [value]="address()" (input)="address.set($any($event.target).value)" />
+      </div>
+      <div class="field">
+        <input type="tel" [placeholder]="'auth.phone' | translate" [value]="phone()" (input)="phone.set($any($event.target).value)" />
+      </div>
+      <div class="actions">
+        <button type="submit" class="button">{{ 'auth.save' | translate }}</button>
+      </div>
+    </form>
+
+    <hr style="margin:2rem 0;" />
+
+    <h3 style="text-align:center;">{{ 'auth.change_password' | translate }}</h3>
+    <form (submit)="changePassword($event)" novalidate>
+      @if (passwordMessage()) { <p class="auth-message">{{ passwordMessage() | translate }}</p> }
+      @if (passwordError()) { <p class="form-error">{{ passwordError() | translate }}</p> }
+      <div class="field">
+        <input type="password" [placeholder]="'auth.current_password' | translate" [value]="currentPassword()" (input)="currentPassword.set($any($event.target).value)" autocomplete="current-password" />
+      </div>
+      <div class="field">
+        <input type="password" [placeholder]="'auth.new_password' | translate" [value]="newPassword()" (input)="newPassword.set($any($event.target).value)" autocomplete="new-password" />
+      </div>
+      <div class="actions">
+        <button type="submit" class="button">{{ 'auth.change_password_btn' | translate }}</button>
+      </div>
+    </form>
+  </div>
+</div>

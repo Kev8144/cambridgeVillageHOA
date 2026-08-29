@@ -52,6 +52,17 @@
       border-color: var(--accent-hover);
       background: rgba(255, 255, 255, 0.1);
     }
+
+    &.field-error {
+      border-color: #e74c3c;
+    }
+  }
+
+  .form-error {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 0.15rem;
   }
 }
 

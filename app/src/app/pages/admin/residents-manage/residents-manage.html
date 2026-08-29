@@ -1,0 +1,57 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.residents' | translate }}</h2>
+      <button class="button" (click)="showInvite.set(true)">+ {{ 'admin.invite' | translate }}</button>
+    </div>
+    @if (showInvite()) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>{{ 'auth.name' | translate }}</label><input [value]="inviteName()" (input)="inviteName.set($any($event.target).value)" /></div>
+          <div class="field"><label>{{ 'auth.email' | translate }}</label><input type="email" [value]="inviteEmail()" (input)="inviteEmail.set($any($event.target).value)" /></div>
+          <div class="field">
+            <label>Role</label>
+            <select [value]="inviteRole()" (change)="inviteRole.set($any($event.target).value)">
+              <option value="Resident">Resident</option>
+              <option value="Admin">Admin</option>
+              <option value="Treasurer">Treasurer</option>
+              <option value="Webmaster">Webmaster</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Position</label><input [value]="invitePosition()" (input)="invitePosition.set($any($event.target).value)" placeholder="e.g. President, VP, Secretary\" /></div>
+          <div class="field">
+            <label>Home</label>
+            <select (change)="inviteHomeId.set($any($event.target).value ? +$any($event.target).value : null)">
+              <option value="">— None —</option>
+              @for (h of homes(); track h.id) {
+                <option [value]="h.id">{{ h.lotNumber ? h.lotNumber + ' — ' : '' }}{{ h.address }}</option>
+              }
+            </select>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="button" (click)="invite()">{{ 'admin.send_invite' | translate }}</button>
+          <button class="btn-sm" (click)="showInvite.set(false)">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Position</th><th>Home</th><th>Active</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.email }}</td>
+            <td>{{ item.role }}</td>
+            <td>{{ item.position ?? '—' }}</td>
+            <td>{{ item.homeAddress ?? '—' }}</td>
+            <td>{{ item.isActive ? '✓' : '✗' }}</td>
+            <td><button class="btn-sm" (click)="toggle(item.id)">{{ item.isActive ? ('admin.deactivate' | translate) : ('admin.activate' | translate) }}</button></td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

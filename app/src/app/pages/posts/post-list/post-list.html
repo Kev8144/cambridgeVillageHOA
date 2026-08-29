@@ -4,6 +4,11 @@
       <h2>{{ 'pages.posts_title' | translate }}</h2>
     </div>
     <div class="posts-list">
+      @if (loading()) {
+        <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+      } @else if (error()) {
+        <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
+      } @else {
       <div class="row">
         @for (post of posts(); track post.slug) {
           <article>
@@ -22,6 +27,7 @@
           </article>
         }
       </div>
+      }
     </div>
   </div>
 </div>

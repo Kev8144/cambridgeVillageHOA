@@ -13,6 +13,8 @@ export class Faq implements OnInit {
   private translate = inject(TranslateService);
 
   items = signal<FaqItem[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -22,6 +24,11 @@ export class Faq implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getFaq(this.lang).subscribe(items => this.items.set(items));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getFaq(this.lang).subscribe({
+      next: items => { this.items.set(items); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

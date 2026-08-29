@@ -13,6 +13,8 @@ export class Newsletters implements OnInit {
   private translate = inject(TranslateService);
 
   issues = signal<Newsletter[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -22,6 +24,11 @@ export class Newsletters implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getNewsletters(this.lang).subscribe(n => this.issues.set(n));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getNewsletters(this.lang).subscribe({
+      next: n => { this.issues.set(n); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

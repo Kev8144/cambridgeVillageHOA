@@ -1,0 +1,67 @@
+<div id="main">
+  <div class="container resident-dashboard">
+    <h2>{{ 'resident.dashboard_title' | translate }}</h2>
+    <p class="welcome">{{ 'resident.welcome' | translate }}, {{ auth.user()?.name }}</p>
+
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else {
+      @if (summary(); as s) {
+        <div class="summary-cards">
+          <div class="card">
+            <span class="card-label">{{ 'resident.balance_due' | translate }}</span>
+            <span class="card-value" [class.overdue]="s.totalDue > 0">{{ s.totalDue | currency }}</span>
+          </div>
+          <div class="card">
+            <span class="card-label">{{ 'resident.total_paid' | translate }}</span>
+            <span class="card-value">{{ s.totalPaid | currency }}</span>
+          </div>
+          <div class="card">
+            <span class="card-label">{{ 'resident.overdue_count' | translate }}</span>
+            <span class="card-value" [class.overdue]="s.overdue > 0">{{ s.overdue }}</span>
+          </div>
+        </div>
+      }
+
+      <h3 style="margin-top:2rem;">{{ 'resident.payment_history' | translate }}</h3>
+      @if (records().length) {
+        <table>
+          <thead>
+            <tr>
+              <th>{{ 'resident.description' | translate }}</th>
+              <th>{{ 'resident.amount' | translate }}</th>
+              <th>{{ 'resident.due_date' | translate }}</th>
+              <th>{{ 'resident.status' | translate }}</th>
+              <th>{{ 'resident.paid_date' | translate }}</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (r of records(); track r.id) {
+              <tr>
+                <td>{{ r.description ?? '—' }}</td>
+                <td>{{ r.amount | currency }}</td>
+                <td>{{ r.dueDate | date:'mediumDate' }}</td>
+                <td><span class="status-badge" [attr.data-status]="r.status">{{ r.status }}</span></td>
+                <td>{{ r.paidDate ? (r.paidDate | date:'mediumDate') : '—' }}</td>
+                <td>
+                  @if (r.status !== 'Paid') {
+                    <button class="button small" [disabled]="paying() === r.id" (click)="pay(r)">
+                      {{ paying() === r.id ? ('loading' | translate) : ('resident.pay_now' | translate) }}
+                    </button>
+                  }
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      } @else {
+        <p>{{ 'resident.no_records' | translate }}</p>
+      }
+
+      <div style="margin-top:2rem;">
+        <a [routerLink]="['/', lang, 'resident', 'profile']" class="button alt">{{ 'nav.profile' | translate }}</a>
+      </div>
+    }
+  </div>
+</div>

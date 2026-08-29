@@ -1,4 +1,8 @@
-@if (homepage(); as hp) {
+@if (loading()) {
+  <div class="container" style="text-align:center;padding:4rem 1rem;"><p>{{ 'loading' | translate }}</p></div>
+} @else if (error()) {
+  <div class="container" style="text-align:center;padding:4rem 1rem;"><p>{{ 'error.load_failed' | translate }}</p></div>
+} @else if (homepage(); as hp) {
   <!-- Photo collage banner -->
   <div class="banner-collage" aria-hidden="true">
     <div class="banner-collage__img"><img src="/images/new/1-meet622.webp"   alt="" loading="eager" /></div>
@@ -54,7 +58,7 @@
       <div class="box special">
         <p>{{ 'home.cta' | translate }}</p>
         <ul class="actions special">
-          <li><a href="#" class="button disabled">{{ 'home.cta_btn' | translate }}</a></li>
+          <li><a [routerLink]="['/', lang, 'resident']" class="button">{{ 'home.cta_btn' | translate }}</a></li>
         </ul>
       </div>
 

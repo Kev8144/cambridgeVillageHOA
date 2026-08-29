@@ -15,6 +15,8 @@ export class Home implements OnInit {
 
   homepage = signal<HomepageData | null>(null);
   posts = signal<Post[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -24,7 +26,15 @@ export class Home implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getHomepage(this.lang).subscribe(d => this.homepage.set(d));
-    this.content.getPosts(this.lang).subscribe(p => this.posts.set(p.slice(0, 4)));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getHomepage(this.lang).subscribe({
+      next: d => { this.homepage.set(d); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
+    this.content.getPosts(this.lang).subscribe({
+      next: p => this.posts.set(p.slice(0, 4)),
+      error: () => {}
+    });
   }
 }

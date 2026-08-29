@@ -4,6 +4,11 @@
       <h2>{{ 'pages.newsletters_title' | translate }}</h2>
     </div>
     <h3 style="margin-bottom:1.5rem;">{{ 'pages.newsletters_heading' | translate }}</h3>
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else if (error()) {
+      <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
+    } @else {
     @for (issue of issues(); track issue.issue) {
       <div class="newsletter-item">
         <div class="newsletter-thumb">
@@ -16,6 +21,7 @@
           {{ issue.label }}
         </a>
       </div>
+    }
     }
   </div>
 </div>

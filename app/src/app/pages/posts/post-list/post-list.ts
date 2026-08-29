@@ -15,6 +15,8 @@ export class PostList implements OnInit {
   private translate = inject(TranslateService);
 
   posts = signal<Post[]>([]);
+  loading = signal(true);
+  error = signal(false);
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
@@ -24,6 +26,11 @@ export class PostList implements OnInit {
   }
 
   private loadData(): void {
-    this.content.getPosts(this.lang).subscribe(p => this.posts.set(p));
+    this.loading.set(true);
+    this.error.set(false);
+    this.content.getPosts(this.lang).subscribe({
+      next: p => { this.posts.set(p); this.loading.set(false); },
+      error: () => { this.error.set(true); this.loading.set(false); }
+    });
   }
 }

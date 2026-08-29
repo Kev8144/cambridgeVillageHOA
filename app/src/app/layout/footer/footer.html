@@ -12,7 +12,7 @@
       <section class="col-3 col-6-narrower col-12-mobilep">
         <h3>{{ 'footer.links.1.header' | translate }}</h3>
         <ul class="links">
-          <li><a href="#">{{ 'footer.links.1.items.0.title' | translate }}</a></li>
+          <li><a [routerLink]="['/', lang, 'resident']">{{ 'footer.links.1.items.0.title' | translate }}</a></li>
         </ul>
       </section>
 
@@ -22,15 +22,20 @@
           <form (submit)="submit($event)" novalidate>
             <div class="row gtr-50">
               <div class="col-6 col-12-mobilep">
-                <input type="text" [placeholder]="'footer.contact.name' | translate" [value]="formName()" (input)="formName.set($any($event.target).value)" />
+                <input type="text" [placeholder]="'footer.contact.name' | translate" [value]="formName()" (input)="formName.set($any($event.target).value)" [class.field-error]="nameError()" />
+                @if (nameError()) { <small class="form-error">{{ 'form_errors.name_required' | translate }}</small> }
               </div>
               <div class="col-6 col-12-mobilep">
-                <input type="email" [placeholder]="'footer.contact.email' | translate" [value]="formEmail()" (input)="formEmail.set($any($event.target).value)" />
+                <input type="email" [placeholder]="'footer.contact.email' | translate" [value]="formEmail()" (input)="formEmail.set($any($event.target).value)" [class.field-error]="emailError()" />
+                @if (emailError() === 'required') { <small class="form-error">{{ 'form_errors.email_required' | translate }}</small> }
+                @if (emailError() === 'invalid') { <small class="form-error">{{ 'form_errors.email_invalid' | translate }}</small> }
               </div>
               <div class="col-12">
-                <textarea [placeholder]="'footer.contact.message' | translate" [value]="formMessage()" (input)="formMessage.set($any($event.target).value)" rows="3"></textarea>
+                <textarea [placeholder]="'footer.contact.message' | translate" [value]="formMessage()" (input)="formMessage.set($any($event.target).value)" rows="3" [class.field-error]="messageError()"></textarea>
+                @if (messageError()) { <small class="form-error">{{ 'form_errors.message_required' | translate }}</small> }
               </div>
               <div class="col-12">
+                @if (submitError()) { <small class="form-error">{{ 'form_errors.submit_failed' | translate }}</small> }
                 <ul class="actions">
                   <li><input type="submit" class="button" [value]="'footer.contact.submit' | translate" /></li>
                 </ul>
@@ -38,7 +43,7 @@
             </div>
           </form>
         } @else {
-          <p style="color:var(--dark-fg);">&#10003; Message sent — we will be in touch!</p>
+          <p style="color:var(--dark-fg);">&#10003; {{ 'footer.contact.sent' | translate }}</p>
         }
       </section>
 

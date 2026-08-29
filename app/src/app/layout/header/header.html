@@ -14,6 +14,20 @@
           <button [class.active]="lang === 'es'" (click)="switchLang('es')">ES</button>
         </span>
       </li>
+      <li>
+        @if (auth.isLoggedIn()) {
+          @if (auth.isAdmin()) {
+            <a routerLink="/{{ lang }}/admin" routerLinkActive="active">{{ 'nav.admin' | translate }}</a>
+          }
+          @if (auth.isBoardMember()) {
+            <a routerLink="/{{ lang }}/admin/financials" routerLinkActive="active">{{ 'nav.treasurer' | translate }}</a>
+          }
+          <a routerLink="/{{ lang }}/resident" routerLinkActive="active">{{ 'nav.dashboard' | translate }}</a>
+          <button class="nav-btn" (click)="logout()">{{ 'nav.logout' | translate }}</button>
+        } @else {
+          <a routerLink="/{{ lang }}/login" routerLinkActive="active" class="nav-btn">{{ 'nav.login' | translate }}</a>
+        }
+      </li>
     </ul>
   </nav>
 </header>

@@ -1,0 +1,62 @@
+<div id="main">
+  <div class="container resident-dashboard admin-page">
+    <h2>{{ 'admin.financials_title' | translate }}</h2>
+
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else {
+      <div class="summary-cards">
+        <div class="card">
+          <span class="card-label">{{ 'admin.total_outstanding' | translate }}</span>
+          <span class="card-value" [class.overdue]="totalDue() > 0">{{ totalDue() | currency }}</span>
+        </div>
+        <div class="card">
+          <span class="card-label">{{ 'admin.total_collected' | translate }}</span>
+          <span class="card-value">{{ totalPaid() | currency }}</span>
+        </div>
+        <div class="card">
+          <span class="card-label">{{ 'admin.total_overdue' | translate }}</span>
+          <span class="card-value" [class.overdue]="totalOverdue() > 0">{{ totalOverdue() }}</span>
+        </div>
+      </div>
+
+      <h3 style="margin-top:2rem;">{{ 'admin.balances_by_home' | translate }}</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>{{ 'admin.lot_number' | translate }}</th>
+            <th>{{ 'admin.address' | translate }}</th>
+            <th>{{ 'admin.residents' | translate }}</th>
+            <th>{{ 'resident.balance_due' | translate }}</th>
+            <th>{{ 'resident.total_paid' | translate }}</th>
+            <th>{{ 'resident.status' | translate }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (h of homes(); track h.id) {
+            <tr>
+              <td>{{ h.lotNumber ?? '—' }}</td>
+              <td>{{ h.address }}</td>
+              <td>
+                @for (r of h.residents; track r.id) {
+                  <span>{{ r.name }}<br/></span>
+                }
+              </td>
+              <td>{{ h.totalDue | currency }}</td>
+              <td>{{ h.totalPaid | currency }}</td>
+              <td>
+                @if (h.overdue > 0) {
+                  <span class="status-badge" data-status="Overdue">{{ h.overdue }} overdue</span>
+                } @else if (h.totalDue > 0) {
+                  <span class="status-badge" data-status="Pending">Pending</span>
+                } @else {
+                  <span class="status-badge" data-status="Paid">Paid</span>
+                }
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    }
+  </div>
+</div>

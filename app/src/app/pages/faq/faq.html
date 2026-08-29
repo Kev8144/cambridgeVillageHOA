@@ -4,13 +4,19 @@
       <h2>{{ 'pages.faq_title' | translate }}</h2>
       <p>{{ 'pages.faq_description' | translate }}</p>
     </div>
-    @for (item of items(); track item.question) {
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else if (error()) {
+      <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
+    } @else {
+      @for (item of items(); track item.question) {
       <div class="collapsible">
         <details open>
           <summary>{{ item.question }}</summary>
           <div class="collapsible-content" [innerHTML]="item.answer"></div>
         </details>
       </div>
+      }
     }
   </div>
 </div>

@@ -1,0 +1,38 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.faq' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>Question (EN)</label><input [value]="e.questionEn" (input)="setField('questionEn', $any($event.target).value)" /></div>
+          <div class="field"><label>Question (ES)</label><input [value]="e.questionEs" (input)="setField('questionEs', $any($event.target).value)" /></div>
+        </div>
+        <div class="field"><label>Answer (EN) — HTML</label><textarea [value]="e.answerEn" (input)="setField('answerEn', $any($event.target).value)" rows="4"></textarea></div>
+        <div class="field"><label>Answer (ES) — HTML</label><textarea [value]="e.answerEs" (input)="setField('answerEs', $any($event.target).value)" rows="4"></textarea></div>
+        <div class="field" style="max-width:100px;"><label>Sort Order</label><input type="number" [value]="e.sortOrder" (input)="setField('sortOrder', +$any($event.target).value)" /></div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>#</th><th>Question (EN)</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.sortOrder }}</td>
+            <td>{{ item.questionEn }}</td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

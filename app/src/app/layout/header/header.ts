@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, Router } from '@angular/router';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
+import { AuthService } from '../../core/auth.service';
 
 @Component({
   selector: 'app-header',
@@ -11,6 +12,7 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 export class Header {
   private router = inject(Router);
   translate = inject(TranslateService);
+  auth = inject(AuthService);
 
   get lang(): string {
     return this.translate.currentLang() ?? 'en';
@@ -21,4 +23,6 @@ export class Header {
     segments[0] = lang;
     this.router.navigate(['/' + segments.join('/')]);
   }
+
+  logout(): void { this.auth.logout(); }
 }

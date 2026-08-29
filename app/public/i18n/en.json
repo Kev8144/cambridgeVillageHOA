@@ -4,7 +4,13 @@
     "newsletters": "Newsletters",
     "documents": "Documents",
     "faq": "FAQ",
-    "meet_the_board": "Meet the Board"
+    "meet_the_board": "Meet the Board",
+    "login": "Log In",
+    "logout": "Log Out",
+    "profile": "My Account",
+    "admin": "Admin",
+    "dashboard": "My Account",
+    "treasurer": "Finances"
   },
   "lang_switch": "Select language",
   "footer": {
@@ -14,8 +20,8 @@
         "items": [{ "title": "How do I...", "url": "/en/faq" }]
       },
       {
-        "header": "Coming soon...",
-        "items": [{ "title": "Payments", "url": "#" }]
+        "header": "Resident Portal",
+        "items": [{ "title": "Pay Dues", "url": "/en/resident" }]
       }
     ],
     "contact": {
@@ -23,7 +29,8 @@
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "sent": "Message sent — we will be in touch!"
     }
   },
   "pages": {
@@ -44,6 +51,97 @@
     "heading": "Do you have a community idea?",
     "heading_body": "Please join us at an HOA meeting or Community event!",
     "cta": "Looking to pay your HOA dues?",
-    "cta_btn": "Coming soon"
+    "cta_btn": "Pay Dues"
+  },
+  "not_found": {
+    "message": "Sorry, the page you're looking for doesn't exist.",
+    "back": "Go Home"
+  },
+  "error": {
+    "load_failed": "Something went wrong. Please try again later."
+  },
+  "loading": "Loading…",
+  "form_errors": {
+    "name_required": "Name is required.",
+    "email_required": "Email is required.",
+    "email_invalid": "Please enter a valid email.",
+    "message_required": "Message is required.",
+    "submit_failed": "Could not send message. Please try again."
+  },
+  "auth": {
+    "login_title": "Log In",
+    "email": "Email",
+    "password": "Password",
+    "login_btn": "Log In",
+    "login_error": "Invalid email or password.",
+    "forgot_link": "Forgot your password?",
+    "forgot_title": "Forgot Password",
+    "forgot_description": "Enter your email and we'll send you a reset link.",
+    "forgot_btn": "Send Reset Link",
+    "forgot_sent": "If that email is registered, a reset link has been sent.",
+    "back_to_login": "Back to Log In",
+    "reset_title": "Reset Password",
+    "set_password_title": "Set Your Password",
+    "new_password": "New password",
+    "confirm_password": "Confirm password",
+    "reset_btn": "Save Password",
+    "reset_success": "Your password has been updated. You can now log in.",
+    "reset_error": "Invalid or expired link. Please request a new one.",
+    "password_min_length": "Password must be at least 8 characters.",
+    "password_mismatch": "Passwords do not match.",
+    "profile_title": "My Profile",
+    "name": "Name",
+    "address": "Address",
+    "phone": "Phone",
+    "save": "Save",
+    "profile_saved": "Profile updated.",
+    "change_password": "Change Password",
+    "current_password": "Current password",
+    "change_password_btn": "Update Password",
+    "password_changed": "Password updated.",
+    "password_change_error": "Current password is incorrect."
+  },
+  "admin": {
+    "dashboard_title": "Admin Dashboard",
+    "dashboard_description": "Manage your HOA content and residents from here.",
+    "posts": "Posts",
+    "newsletters": "Newsletters",
+    "documents": "Documents",
+    "faq": "FAQ",
+    "board": "Board Members",
+    "residents": "Residents",
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "invite": "Invite Resident",
+    "send_invite": "Send Invitation",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "homes": "Homes",
+    "address": "Address",
+    "lot_number": "Lot #",
+    "financials": "Financials",
+    "financials_title": "Financial Overview",
+    "total_outstanding": "Total Outstanding",
+    "total_collected": "Total Collected",
+    "total_overdue": "Total Overdue",
+    "balances_by_home": "Balances by Home"
+  },
+  "resident": {
+    "dashboard_title": "My Dashboard",
+    "welcome": "Welcome",
+    "balance_due": "Balance Due",
+    "total_paid": "Total Paid",
+    "overdue_count": "Overdue Items",
+    "payment_history": "Payment History",
+    "description": "Description",
+    "amount": "Amount",
+    "due_date": "Due Date",
+    "status": "Status",
+    "paid_date": "Paid Date",
+    "no_records": "No dues records found.",
+    "pay_now": "Pay Now"
   }
 }

@@ -4,6 +4,11 @@
       <h2>{{ 'pages.meet_the_board_title' | translate }}</h2>
       <p>{{ 'pages.meet_the_board_description' | translate }}</p>
     </div>
+    @if (loading()) {
+      <p style="text-align:center;padding:2rem;">{{ 'loading' | translate }}</p>
+    } @else if (error()) {
+      <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
+    } @else {
     @for (member of members(); track member.role) {
       <div class="board-member">
         <img [src]="member.photo" [alt]="member.name" loading="lazy" />
@@ -13,6 +18,7 @@
           <p>Contact Email: <a [href]="'mailto:' + member.email">{{ member.email }}</a></p>
         </div>
       </div>
+    }
     }
   </div>
 </div>

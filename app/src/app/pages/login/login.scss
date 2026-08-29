@@ -1,0 +1,44 @@
+.auth-form {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+
+  h2 { text-align: center; margin-bottom: 1.5rem; }
+
+  .field {
+    margin-bottom: 1rem;
+
+    input {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 1rem;
+    }
+  }
+
+  .actions {
+    margin-top: 1.25rem;
+    text-align: center;
+
+    button { min-width: 160px; }
+  }
+
+  .form-error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .auth-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .auth-message {
+    text-align: center;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+}

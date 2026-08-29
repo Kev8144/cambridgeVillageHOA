@@ -1,0 +1,48 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.posts' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>Slug</label><input [value]="e.slug" (input)="setField('slug', $any($event.target).value)" /></div>
+          <div class="field"><label>Date</label><input type="date" [value]="e.date?.toString()?.slice(0,10)" (input)="setField('date', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Title (EN)</label><input [value]="e.titleEn" (input)="setField('titleEn', $any($event.target).value)" /></div>
+          <div class="field"><label>Title (ES)</label><input [value]="e.titleEs" (input)="setField('titleEs', $any($event.target).value)" /></div>
+        </div>
+        <div class="field"><label>Body (EN)</label><textarea [value]="e.bodyEn" (input)="setField('bodyEn', $any($event.target).value)" rows="6"></textarea></div>
+        <div class="field"><label>Body (ES)</label><textarea [value]="e.bodyEs" (input)="setField('bodyEs', $any($event.target).value)" rows="6"></textarea></div>
+        <div class="form-row">
+          <div class="field"><label>Image URL</label><input [value]="e.image ?? ''" (input)="setField('image', $any($event.target).value)" /><input type="file" accept=".png,.jpg,.jpeg,.webp" (change)="upload('image', $event)" /></div>
+          <div class="field"><label>Tags (comma separated)</label><input [value]="e.tags ?? ''" (input)="setField('tags', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+
+    <table>
+      <thead><tr><th>Slug</th><th>Title (EN)</th><th>Date</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.slug }}</td>
+            <td>{{ item.titleEn }}</td>
+            <td>{{ item.date?.toString()?.slice(0,10) }}</td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

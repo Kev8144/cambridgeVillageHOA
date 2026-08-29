@@ -1,0 +1,42 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.board' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>Role</label><input [value]="e.role" (input)="setField('role', $any($event.target).value)" /></div>
+          <div class="field"><label>Name</label><input [value]="e.name" (input)="setField('name', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Email</label><input type="email" [value]="e.email" (input)="setField('email', $any($event.target).value)" /></div>
+          <div class="field"><label>Photo URL</label><input [value]="e.photo" (input)="setField('photo', $any($event.target).value)" /><input type="file" accept=".png,.jpg,.jpeg,.webp" (change)="upload('photo', $event)" /></div>
+        </div>
+        <div class="field" style="max-width:100px;"><label>Sort Order</label><input type="number" [value]="e.sortOrder" (input)="setField('sortOrder', +$any($event.target).value)" /></div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>#</th><th>Role</th><th>Name</th><th>Email</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.sortOrder }}</td>
+            <td>{{ item.role }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.email }}</td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div id="main">
+  <div class="container admin-page">
+    <div class="admin-toolbar">
+      <h2>{{ 'admin.documents' | translate }}</h2>
+      <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
+    </div>
+    @if (showForm() && editing(); as e) {
+      <div class="admin-form">
+        <div class="form-row">
+          <div class="field"><label>Title (EN)</label><input [value]="e.titleEn" (input)="setField('titleEn', $any($event.target).value)" /></div>
+          <div class="field"><label>Title (ES)</label><input [value]="e.titleEs" (input)="setField('titleEs', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>File Path</label><input [value]="e.filePath" (input)="setField('filePath', $any($event.target).value)" /><input type="file" accept=".pdf,.docx,.png,.jpg,.jpeg,.webp" (change)="upload('filePath', $event)" /></div>
+          <div class="field"><label>Label (EN)</label><input [value]="e.labelEn" (input)="setField('labelEn', $any($event.target).value)" /></div>
+          <div class="field"><label>Label (ES)</label><input [value]="e.labelEs" (input)="setField('labelEs', $any($event.target).value)" /></div>
+        </div>
+        <div class="form-actions">
+          <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+          <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+        </div>
+      </div>
+    }
+    <table>
+      <thead><tr><th>Title (EN)</th><th>File</th><th></th></tr></thead>
+      <tbody>
+        @for (item of items(); track item.id) {
+          <tr>
+            <td>{{ item.titleEn }}</td>
+            <td>{{ item.filePath }}</td>
+            <td>
+              <button class="btn-sm" (click)="edit(item)">{{ 'admin.edit' | translate }}</button>
+              <button class="btn-sm btn-danger" (click)="remove(item.id!)">{{ 'admin.delete' | translate }}</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

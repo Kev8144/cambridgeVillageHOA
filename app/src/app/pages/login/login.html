@@ -1,0 +1,20 @@
+<div id="main">
+  <div class="container auth-form">
+    <h2>{{ 'auth.login_title' | translate }}</h2>
+    <form (submit)="submit($event)" novalidate>
+      @if (error()) {
+        <p class="form-error">{{ error() | translate }}</p>
+      }
+      <div class="field">
+        <input type="email" [placeholder]="'auth.email' | translate" [value]="email()" (input)="email.set($any($event.target).value)" autocomplete="email" />
+      </div>
+      <div class="field">
+        <input type="password" [placeholder]="'auth.password' | translate" [value]="password()" (input)="password.set($any($event.target).value)" autocomplete="current-password" />
+      </div>
+      <div class="actions">
+        <button type="submit" class="button" [disabled]="loading()">{{ 'auth.login_btn' | translate }}</button>
+      </div>
+      <p class="auth-link"><a [routerLink]="['/', lang, 'forgot-password']">{{ 'auth.forgot_link' | translate }}</a></p>
+    </form>
+  </div>
+</div>

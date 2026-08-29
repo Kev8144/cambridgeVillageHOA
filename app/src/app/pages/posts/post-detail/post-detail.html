@@ -1,6 +1,10 @@
 <div id="main">
   <div class="container">
-    @if (post(); as p) {
+    @if (loading()) {
+      <p style="text-align:center;padding:4rem 1rem;">{{ 'loading' | translate }}</p>
+    } @else if (error()) {
+      <p style="text-align:center;padding:4rem 1rem;">{{ 'error.load_failed' | translate }}</p>
+    } @else if (post(); as p) {
       <article>
         <header>
           <h2>{{ p.title }}</h2>

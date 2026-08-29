@@ -1,0 +1,82 @@
+<div id="main">
+  <div class="container admin-page resident-dashboard">
+    <h2>{{ 'admin.dues_title' | translate }}</h2>
+
+    <div class="field" style="max-width:420px;margin-bottom:1.5rem;">
+      <label style="display:block;font-weight:600;margin-bottom:0.25rem;">{{ 'admin.select_home' | translate }}</label>
+      <select (change)="onHomeChange($any($event.target).value)" style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:var(--radius);">
+        <option value="">— {{ 'admin.select_home' | translate }} —</option>
+        @for (h of homes(); track h.id) {
+          <option [value]="h.id" [selected]="h.id === selectedHomeId()">{{ h.lotNumber ? h.lotNumber + ' — ' : '' }}{{ h.address }}</option>
+        }
+      </select>
+    </div>
+
+    @if (selectedHome(); as home) {
+      <div class="admin-toolbar">
+        <h3 style="margin:0;">{{ home.address }}</h3>
+        <button class="button" (click)="add()">+ {{ 'admin.add_payment' | translate }}</button>
+      </div>
+
+      @if (showForm() && editing(); as e) {
+        <div class="admin-form">
+          <div class="form-row">
+            <div class="field"><label>{{ 'resident.description' | translate }}</label><input [value]="e.description ?? ''" (input)="setField('description', $any($event.target).value)" placeholder="e.g. Jan–Jun 2026 dues" /></div>
+            <div class="field"><label>{{ 'resident.amount' | translate }}</label><input type="number" step="0.01" [value]="e.amount" (input)="setField('amount', +$any($event.target).value)" /></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label>{{ 'resident.due_date' | translate }}</label><input type="date" [value]="e.dueDate" (input)="setField('dueDate', $any($event.target).value)" /></div>
+            <div class="field">
+              <label>{{ 'resident.status' | translate }}</label>
+              <select [value]="e.status" (change)="setField('status', $any($event.target).value)" style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:var(--radius);">
+                <option value="Pending">Pending</option>
+                <option value="Paid">Paid</option>
+                <option value="Overdue">Overdue</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label>{{ 'resident.paid_date' | translate }}</label><input type="date" [value]="e.paidDate ?? ''" (input)="setField('paidDate', $any($event.target).value)" /></div>
+            <div class="field"><label>{{ 'admin.reference' | translate }}</label><input [value]="e.reference ?? ''" (input)="setField('reference', $any($event.target).value)" placeholder="Check # / txn id" /></div>
+          </div>
+          <div class="form-actions">
+            <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
+            <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
+          </div>
+        </div>
+      }
+
+      <table>
+        <thead>
+          <tr>
+            <th>{{ 'resident.description' | translate }}</th>
+            <th>{{ 'resident.amount' | translate }}</th>
+            <th>{{ 'resident.due_date' | translate }}</th>
+            <th>{{ 'resident.status' | translate }}</th>
+            <th>{{ 'resident.paid_date' | translate }}</th>
+            <th>{{ 'admin.reference' | translate }}</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of records(); track r.id) {
+            <tr>
+              <td>{{ r.description || '—' }}</td>
+              <td>{{ r.amount | currency }}</td>
+              <td>{{ r.dueDate | date:'mediumDate' }}</td>
+              <td><span class="status-badge" [attr.data-status]="r.status">{{ r.status }}</span></td>
+              <td>{{ r.paidDate ? (r.paidDate | date:'mediumDate') : '—' }}</td>
+              <td>{{ r.reference || '—' }}</td>
+              <td>
+                <button class="btn-sm" (click)="edit(r)">{{ 'admin.edit' | translate }}</button>
+                <button class="btn-sm btn-danger" (click)="remove(r.id!)">{{ 'admin.delete' | translate }}</button>
+              </td>
+            </tr>
+          } @empty {
+            <tr><td colspan="7" style="text-align:center;padding:1.5rem;color:var(--fg-light);">{{ 'resident.no_records' | translate }}</td></tr>
+          }
+        </tbody>
+      </table>
+    }
+  </div>
+</div>

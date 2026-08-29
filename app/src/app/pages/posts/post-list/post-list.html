@@ -10,7 +10,7 @@
         <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
       } @else {
       <div class="row">
-        @for (post of posts(); track post.slug) {
+        @for (post of pagedPosts(); track post.slug) {
           <article>
             <a [routerLink]="['/', lang, 'posts', post.slug]" class="image fit">
               <img [src]="post.image" [alt]="post.title" loading="lazy" />
@@ -27,6 +27,7 @@
           </article>
         }
       </div>
+      <app-paginator [total]="posts().length" [pageSize]="pageSize" [page]="page()" (pageChange)="page.set($event)" />
       }
     </div>
   </div>

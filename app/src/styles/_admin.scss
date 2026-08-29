@@ -36,6 +36,17 @@
   }
   .btn-danger { color: #e74c3c; border-color: #e74c3c; &:hover { background: #fdecea; } }
 
+  .status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    &[data-status="Paid"] { background: #d4edda; color: #155724; }
+    &[data-status="Pending"] { background: #fff3cd; color: #856404; }
+    &[data-status="Overdue"] { background: #f8d7da; color: #721c24; }
+  }
+
   select {
     width: 100%;
     padding: 0.5rem 0.75rem;

@@ -21,6 +21,7 @@
       </div>
 
       <h3 style="margin-top:2rem;">{{ 'admin.balances_by_home' | translate }}</h3>
+      <input type="search" [value]="search()" (input)="onSearch($any($event.target).value)" [placeholder]="'admin.search' | translate" style="width:100%;max-width:360px;padding:0.5rem 0.75rem;margin-bottom:1rem;border:1px solid var(--border);border-radius:var(--radius);" />
       <table>
         <thead>
           <tr>
@@ -30,10 +31,11 @@
             <th>{{ 'resident.balance_due' | translate }}</th>
             <th>{{ 'resident.total_paid' | translate }}</th>
             <th>{{ 'resident.status' | translate }}</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
-          @for (h of homes(); track h.id) {
+          @for (h of paged(); track h.id) {
             <tr>
               <td>{{ h.lotNumber ?? '—' }}</td>
               <td>{{ h.address }}</td>
@@ -53,10 +55,12 @@
                   <span class="status-badge" data-status="Paid">Paid</span>
                 }
               </td>
+              <td><a class="btn-sm" [routerLink]="['/', lang, base, 'dues']" [queryParams]="{ homeId: h.id }">{{ 'admin.manage_payments' | translate }}</a></td>
             </tr>
           }
         </tbody>
       </table>
+      <app-paginator [total]="filtered().length" [pageSize]="pageSize" [page]="page()" (pageChange)="page.set($event)" />
     }
   </div>
 </div>

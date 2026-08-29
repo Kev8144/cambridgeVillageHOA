@@ -9,13 +9,16 @@
     } @else if (error()) {
       <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
     } @else {
-      @for (item of items(); track item.question) {
+      <input type="search" class="faq-search" [value]="search()" (input)="search.set($any($event.target).value)" [placeholder]="'faq_search' | translate" style="width:100%;max-width:420px;padding:0.55rem 0.85rem;margin-bottom:1.5rem;border:1px solid var(--border);border-radius:var(--radius);font-size:1rem;" />
+      @for (item of filteredItems(); track item.question) {
       <div class="collapsible">
         <details open>
           <summary>{{ item.question }}</summary>
           <div class="collapsible-content" [innerHTML]="item.answer"></div>
         </details>
       </div>
+      } @empty {
+        <p style="text-align:center;padding:2rem;">{{ 'faq_no_results' | translate }}</p>
       }
     }
   </div>

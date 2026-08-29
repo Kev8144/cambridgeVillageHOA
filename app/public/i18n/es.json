@@ -61,6 +61,9 @@
     "load_failed": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
   },
   "loading": "Cargando…",
+  "faq_search": "Buscar preguntas…",
+  "faq_no_results": "No se encontraron preguntas.",
+  "newsletters_view": "Ver PDF",
   "form_errors": {
     "name_required": "El nombre es obligatorio.",
     "email_required": "El correo es obligatorio.",
@@ -127,7 +130,17 @@
     "total_outstanding": "Total Pendiente",
     "total_collected": "Total Recaudado",
     "total_overdue": "Total Atrasado",
-    "balances_by_home": "Saldos por Hogar"
+    "balances_by_home": "Saldos por Hogar",
+    "search": "Buscar…",
+    "dues_title": "Administrar Pagos",
+    "select_home": "Seleccione un hogar",
+    "add_payment": "Agregar Pago",
+    "manage_payments": "Administrar",
+    "reference": "Referencia",
+    "qr": "QR",
+    "enroll_qr_title": "Código QR de Inscripción",
+    "enroll_qr_hint": "Pida al residente que escanee esto con la cámara de su teléfono para establecer su contraseña e inscribirse.",
+    "copy_link": "Copiar Enlace"
   },
   "resident": {
     "dashboard_title": "Mi Panel",

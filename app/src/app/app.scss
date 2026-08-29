@@ -8,3 +8,8 @@
 #main {
 	flex: 1 0 auto;
 }
+
+app-header,
+app-footer {
+	flex-shrink: 0;
+}

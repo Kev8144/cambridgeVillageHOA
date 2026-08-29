@@ -40,6 +40,7 @@ export const routes: Routes = [
           { path: 'residents', loadComponent: () => import('./pages/admin/residents-manage/residents-manage').then(m => m.ResidentsManage) },
           { path: 'homes', loadComponent: () => import('./pages/admin/homes-manage/homes-manage').then(m => m.HomesManage) },
           { path: 'financials', loadComponent: () => import('./pages/admin/financials/financials').then(m => m.Financials) },
+          { path: 'dues', loadComponent: () => import('./pages/admin/dues-manage/dues-manage').then(m => m.DuesManage) },
         ]
       },
       {
@@ -49,6 +50,7 @@ export const routes: Routes = [
           { path: '', loadComponent: () => import('./pages/admin/financials/financials').then(m => m.Financials) },
           { path: 'homes', loadComponent: () => import('./pages/admin/homes-manage/homes-manage').then(m => m.HomesManage) },
           { path: 'residents', loadComponent: () => import('./pages/admin/residents-manage/residents-manage').then(m => m.ResidentsManage) },
+          { path: 'dues', loadComponent: () => import('./pages/admin/dues-manage/dues-manage').then(m => m.DuesManage) },
         ]
       },
       { path: '**', loadComponent: () => import('./pages/not-found/not-found').then(m => m.NotFound) }

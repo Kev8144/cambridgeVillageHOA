@@ -1,4 +1,4 @@
-import { Component, inject, signal, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ContentService, FaqItem } from '../../core/content';
 
@@ -15,6 +15,14 @@ export class Faq implements OnInit {
   items = signal<FaqItem[]>([]);
   loading = signal(true);
   error = signal(false);
+  search = signal('');
+
+  filteredItems = computed(() => {
+    const q = this.search().trim().toLowerCase();
+    if (!q) return this.items();
+    return this.items().filter(i =>
+      i.question.toLowerCase().includes(q) || i.answer.toLowerCase().includes(q));
+  });
 
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 

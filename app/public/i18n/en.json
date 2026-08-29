@@ -61,6 +61,9 @@
     "load_failed": "Something went wrong. Please try again later."
   },
   "loading": "Loading…",
+  "faq_search": "Search FAQs…",
+  "faq_no_results": "No matching questions found.",
+  "newsletters_view": "View PDF",
   "form_errors": {
     "name_required": "Name is required.",
     "email_required": "Email is required.",
@@ -127,7 +130,17 @@
     "total_outstanding": "Total Outstanding",
     "total_collected": "Total Collected",
     "total_overdue": "Total Overdue",
-    "balances_by_home": "Balances by Home"
+    "balances_by_home": "Balances by Home",
+    "search": "Search…",
+    "dues_title": "Manage Payments",
+    "select_home": "Select a home",
+    "add_payment": "Add Payment",
+    "manage_payments": "Manage",
+    "reference": "Reference",
+    "qr": "QR",
+    "enroll_qr_title": "Enrollment QR",
+    "enroll_qr_hint": "Have the resident scan this with their phone camera to set their password and enroll.",
+    "copy_link": "Copy Link"
   },
   "resident": {
     "dashboard_title": "My Dashboard",

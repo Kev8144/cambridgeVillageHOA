@@ -1,10 +1,11 @@
-import { Component, inject, signal, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ContentService, Newsletter } from '../../core/content';
+import { Paginator } from '../../shared/paginator/paginator';
 
 @Component({
   selector: 'app-newsletters',
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, Paginator],
   templateUrl: './newsletters.html',
   styleUrl: './newsletters.scss',
 })
@@ -16,6 +17,13 @@ export class Newsletters implements OnInit {
   loading = signal(true);
   error = signal(false);
 
+  page = signal(1);
+  readonly pageSize = 8;
+  pagedIssues = computed(() => {
+    const start = (this.page() - 1) * this.pageSize;
+    return this.issues().slice(start, start + this.pageSize);
+  });
+
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
   ngOnInit(): void {
@@ -26,6 +34,7 @@ export class Newsletters implements OnInit {
   private loadData(): void {
     this.loading.set(true);
     this.error.set(false);
+    this.page.set(1);
     this.content.getNewsletters(this.lang).subscribe({
       next: n => { this.issues.set(n); this.loading.set(false); },
       error: () => { this.error.set(true); this.loading.set(false); }

@@ -1,12 +1,13 @@
-import { Component, inject, signal, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { RouterLink } from '@angular/router';
 import { DatePipe } from '@angular/common';
 import { ContentService, Post } from '../../../core/content';
+import { Paginator } from '../../../shared/paginator/paginator';
 
 @Component({
   selector: 'app-post-list',
-  imports: [TranslatePipe, RouterLink, DatePipe],
+  imports: [TranslatePipe, RouterLink, DatePipe, Paginator],
   templateUrl: './post-list.html',
   styleUrl: './post-list.scss',
 })
@@ -18,6 +19,13 @@ export class PostList implements OnInit {
   loading = signal(true);
   error = signal(false);
 
+  page = signal(1);
+  readonly pageSize = 9;
+  pagedPosts = computed(() => {
+    const start = (this.page() - 1) * this.pageSize;
+    return this.posts().slice(start, start + this.pageSize);
+  });
+
   get lang(): string { return this.translate.currentLang() ?? 'en'; }
 
   ngOnInit(): void {
@@ -28,6 +36,7 @@ export class PostList implements OnInit {
   private loadData(): void {
     this.loading.set(true);
     this.error.set(false);
+    this.page.set(1);
     this.content.getPosts(this.lang).subscribe({
       next: p => { this.posts.set(p); this.loading.set(false); },
       error: () => { this.error.set(true); this.loading.set(false); }

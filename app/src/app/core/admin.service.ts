@@ -28,6 +28,11 @@ export interface ApiHome {
   id?: number; address: string; lotNumber?: string; isActive: boolean;
   residents?: { id: number; name: string; email: string }[];
 }
+export interface ApiDues {
+  id?: number; homeId: number; userId?: number; amount: number;
+  dueDate: string; paidDate?: string | null; status: string;
+  reference?: string; description?: string;
+}
 
 @Injectable({ providedIn: 'root' })
 export class AdminService {
@@ -66,10 +71,11 @@ export class AdminService {
   // Residents
   getResidents() { return this.http.get<any[]>(`${API}/residents`); }
   inviteResident(data: { email: string; name: string; role?: string; position?: string; homeId?: number }) {
-    return this.http.post(`${API}/residents/invite`, data);
+    return this.http.post<{ message: string; userId: number; enrollUrl: string }>(`${API}/residents/invite`, data);
   }
   toggleResident(id: number) { return this.http.patch(`${API}/residents/${id}/toggle-active`, {}); }
   updateResident(id: number, data: any) { return this.http.put(`${API}/residents/${id}`, data); }
+  getInviteLink(id: number) { return this.http.post<{ enrollUrl: string }>(`${API}/residents/${id}/invite-link`, {}); }
 
   // Homes
   getHomes(): Observable<ApiHome[]> { return this.http.get<ApiHome[]>(`${API}/homes`); }
@@ -79,6 +85,12 @@ export class AdminService {
 
   // Financial
   getDuesByHome() { return this.http.get<any[]>(`${API}/dues/by-home`); }
+
+  // Dues records per home
+  getDuesForHome(homeId: number) { return this.http.get<ApiDues[]>(`${API}/dues?homeId=${homeId}`); }
+  createDues(record: ApiDues) { return this.http.post<ApiDues>(`${API}/dues`, record); }
+  updateDues(id: number, record: ApiDues) { return this.http.put<ApiDues>(`${API}/dues/${id}`, record); }
+  deleteDues(id: number) { return this.http.delete(`${API}/dues/${id}`); }
 
   // File upload — returns the stored public path
   uploadFile(file: File): Observable<{ path: string }> {

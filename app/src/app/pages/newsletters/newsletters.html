@@ -9,19 +9,23 @@
     } @else if (error()) {
       <p style="text-align:center;padding:2rem;">{{ 'error.load_failed' | translate }}</p>
     } @else {
-    @for (issue of issues(); track issue.issue) {
-      <div class="newsletter-item">
-        <div class="newsletter-thumb">
-          <a [href]="issue.pdf" target="_blank" rel="noopener">
-            <img [src]="issue.thumbnail" alt="Newsletter thumbnail" loading="lazy" />
+      <div class="newsletter-grid">
+        @for (issue of pagedIssues(); track issue.issue) {
+          <a class="newsletter-card" [href]="issue.pdf" target="_blank" rel="noopener">
+            <div class="newsletter-card__thumb">
+              <img [src]="issue.thumbnail" [alt]="issue.label" loading="lazy" />
+            </div>
+            <div class="newsletter-card__body">
+              <span class="newsletter-card__label">{{ issue.label }}</span>
+              <span class="newsletter-card__action">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-pdf.svg" alt="" aria-hidden="true" />
+                {{ 'newsletters_view' | translate }}
+              </span>
+            </div>
           </a>
-        </div>
-        <a [href]="issue.pdf" target="_blank" rel="noopener" class="download-link">
-          <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/download.svg" alt="" aria-hidden="true" />
-          {{ issue.label }}
-        </a>
+        }
       </div>
-    }
+      <app-paginator [total]="issues().length" [pageSize]="pageSize" [page]="page()" (pageChange)="page.set($event)" />
     }
   </div>
 </div>

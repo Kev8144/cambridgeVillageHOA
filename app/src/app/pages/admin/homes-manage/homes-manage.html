@@ -4,6 +4,7 @@
       <h2>{{ 'admin.homes' | translate }}</h2>
       <button class="button" (click)="add()">+ {{ 'admin.add' | translate }}</button>
     </div>
+    <input type="search" [value]="search()" (input)="onSearch($any($event.target).value)" [placeholder]="'admin.search' | translate" style="width:100%;max-width:360px;padding:0.5rem 0.75rem;margin-bottom:1rem;border:1px solid var(--border);border-radius:var(--radius);" />
     @if (showForm() && editing(); as e) {
       <div class="admin-form">
         <div class="form-row">
@@ -19,7 +20,7 @@
     <table>
       <thead><tr><th>{{ 'admin.lot_number' | translate }}</th><th>{{ 'admin.address' | translate }}</th><th>{{ 'admin.residents' | translate }}</th><th></th></tr></thead>
       <tbody>
-        @for (item of items(); track item.id) {
+        @for (item of paged(); track item.id) {
           <tr>
             <td>{{ item.lotNumber ?? '—' }}</td>
             <td>{{ item.address }}</td>
@@ -36,5 +37,6 @@
         }
       </tbody>
     </table>
+    <app-paginator [total]="filtered().length" [pageSize]="pageSize" [page]="page()" (pageChange)="page.set($event)" />
   </div>
 </div>

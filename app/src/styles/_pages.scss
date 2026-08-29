@@ -101,28 +101,62 @@ article header {
   }
 }
 
-// Newsletter thumbnails
-.newsletter-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.75rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin-bottom: 1rem;
-  transition: box-shadow 0.2s ease;
-
-  &:hover { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); }
+// Newsletter archive — responsive cover-card grid
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
 }
 
-.newsletter-thumb {
-  width: 10rem;
-  flex-shrink: 0;
+.newsletter-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 
-  img {
-    width: 100%;
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
+  &:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+  }
+
+  &__thumb {
+    aspect-ratio: 8.5 / 11;
+    background: var(--bg-alt);
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__body {
+    padding: 0.75rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  &__label {
+    font-weight: 600;
+    color: var(--fg-bold);
+  }
+
+  &__action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent);
+    font-size: 0.9rem;
+
+    img { height: 1em; width: auto; }
   }
 }
 

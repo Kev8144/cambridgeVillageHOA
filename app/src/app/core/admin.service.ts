@@ -1,8 +1,9 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
-const API = '/api';
+const API = `${environment.apiBase}/api`;
 
 export interface ApiPost {
   id?: number; slug: string; titleEn: string; titleEs: string;

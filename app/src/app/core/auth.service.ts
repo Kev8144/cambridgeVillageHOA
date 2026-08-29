@@ -2,11 +2,12 @@ import { Injectable, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Observable, tap, catchError, of } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 export interface TokenResponse { accessToken: string; refreshToken: string; }
 export interface UserProfile { id: number; email: string; name: string; role: string; position?: string; address?: string; phone?: string; homeId?: number; }
 
-const API = '/api';
+const API = `${environment.apiBase}/api`;
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {

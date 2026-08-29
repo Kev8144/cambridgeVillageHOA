@@ -2,6 +2,7 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 export interface Post { slug: string; title: string; date: string; image: string; tags: string[]; }
 export interface BoardMember { role: string; name: string; email: string; photo: string; }
@@ -13,7 +14,7 @@ export interface HomepageData {
   highlights: { items_per_row: number; items: { title: string; icon: string; content: string }[] };
 }
 
-const API = '/api';
+const API = `${environment.apiBase}/api`;
 
 @Injectable({ providedIn: 'root' })
 export class ContentService {

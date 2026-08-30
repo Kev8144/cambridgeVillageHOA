@@ -1,7 +1,10 @@
 <header id="header">
-  <h1 id="logo"><a routerLink="/{{ lang }}">Community</a></h1>
-  <nav id="nav">
-    <ul>
+  <h1 id="logo"><a routerLink="/{{ lang }}" (click)="closeMenu()">Community</a></h1>
+  <button class="nav-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen()" aria-label="Toggle menu" aria-controls="nav">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="nav" [class.open]="menuOpen()">
+    <ul (click)="closeMenu()">
       <li><a routerLink="/{{ lang }}" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">{{ "nav.home" | translate }}</a></li>
       <li><a routerLink="/{{ lang }}/newsletters"    routerLinkActive="active">{{ "nav.newsletters"     | translate }}</a></li>
       <li><a routerLink="/{{ lang }}/documents"      routerLinkActive="active">{{ "nav.documents"       | translate }}</a></li>

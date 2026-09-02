@@ -22,7 +22,7 @@ export class PostsManage implements OnInit {
   load(): void { this.admin.getPosts().subscribe(d => this.items.set(d)); }
 
   add(): void {
-    this.editing.set({ slug: '', titleEn: '', titleEs: '', bodyEn: '', bodyEs: '', image: '', date: new Date().toISOString().slice(0, 10), tags: '' });
+    this.editing.set({ slug: '', titleEn: '', titleEs: '', bodyEn: '', bodyEs: '', image: '', date: new Date().toISOString().slice(0, 10), tags: '', images: '' });
     this.showForm.set(true);
   }
 
@@ -47,5 +47,41 @@ export class PostsManage implements OnInit {
     const file = (event.target as HTMLInputElement).files?.[0];
     if (!file) return;
     this.admin.uploadFile(file).subscribe(res => this.setField(field, res.path));
+  }
+
+  gallery(): string[] {
+    const raw = this.editing()?.images ?? '';
+    return raw.split(',').map(s => s.trim()).filter(Boolean);
+  }
+
+  private setGallery(urls: string[]): void {
+    this.setField('images', urls.join(','));
+  }
+
+  /** Upload one or more files: append each to the gallery and adopt the first as cover if unset. */
+  uploadGallery(event: Event): void {
+    const files = Array.from((event.target as HTMLInputElement).files ?? []);
+    if (!files.length) return;
+    files.forEach(file => {
+      this.admin.uploadFile(file).subscribe(res => {
+        const current = this.gallery();
+        this.setGallery([...current, res.path]);
+        if (!this.editing()?.image) this.setField('image', res.path);
+      });
+    });
+    (event.target as HTMLInputElement).value = '';
+  }
+
+  setCover(url: string): void { this.setField('image', url); }
+
+  removeFromGallery(url: string): void {
+    this.setGallery(this.gallery().filter(u => u !== url));
+    if (this.editing()?.image === url) this.setField('image', '');
+  }
+
+  insertImage(field: 'bodyEn' | 'bodyEs', url: string): void {
+    const current = (this.editing() as any)?.[field] ?? '';
+    const tag = `<div class="responsive-thumbnail"><a href="${url}" target="_blank"><img src="${url}" alt="" loading="lazy" /></a></div>`;
+    this.setField(field, current + (current ? '\n' : '') + tag);
   }
 }

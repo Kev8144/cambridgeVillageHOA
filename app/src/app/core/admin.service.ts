@@ -8,6 +8,7 @@ const API = `${environment.apiBase}/api`;
 export interface ApiPost {
   id?: number; slug: string; titleEn: string; titleEs: string;
   bodyEn: string; bodyEs: string; image?: string; date: string; tags?: string;
+  images?: string;
 }
 export interface ApiNewsletter {
   id?: number; issue: number; labelEn: string; labelEs: string;

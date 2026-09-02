@@ -21,6 +21,31 @@
           <div class="field"><label>Image URL</label><input [value]="e.image ?? ''" (input)="setField('image', $any($event.target).value)" /><input type="file" accept=".png,.jpg,.jpeg,.webp" (change)="upload('image', $event)" /></div>
           <div class="field"><label>Tags (comma separated)</label><input [value]="e.tags ?? ''" (input)="setField('tags', $any($event.target).value)" /></div>
         </div>
+
+        <div class="field">
+          <label>Additional images (first upload becomes cover if empty)</label>
+          <input type="file" accept=".png,.jpg,.jpeg,.webp" multiple (change)="uploadGallery($event)" />
+          @if (gallery().length) {
+            <div class="post-gallery">
+              @for (url of gallery(); track url) {
+                <div class="post-gallery-item">
+                  <img [src]="url" alt="" loading="lazy" />
+                  <div class="post-gallery-actions">
+                    @if (e.image === url) {
+                      <span class="tag">Cover</span>
+                    } @else {
+                      <button type="button" class="btn-sm" (click)="setCover(url)">Set as cover</button>
+                    }
+                    <button type="button" class="btn-sm" (click)="insertImage('bodyEn', url)">Insert EN</button>
+                    <button type="button" class="btn-sm" (click)="insertImage('bodyEs', url)">Insert ES</button>
+                    <button type="button" class="btn-sm btn-danger" (click)="removeFromGallery(url)">Remove</button>
+                  </div>
+                </div>
+              }
+            </div>
+          }
+        </div>
+
         <div class="form-actions">
           <button class="button" (click)="save()">{{ 'admin.save' | translate }}</button>
           <button class="btn-sm" (click)="cancel()">{{ 'admin.cancel' | translate }}</button>
